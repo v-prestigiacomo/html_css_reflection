@@ -10,3 +10,49 @@ body {
     background-color: lightblue;
 }
 
+// header
+.header_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    img {
+        width: 60%;
+        height: 60%;
+        margin-top: auto;
+        margin-bottom: auto; 
+        margin-right: 20px;   
+    }
+
+    .btn_support {
+        display: none;
+    }
+    .btn_contact {
+        display: none;
+    }
+    .fa-border {
+        background-color: #333645;
+    }
+
+    .fa-phone {
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: 15px;
+        width: 20%;
+    }
+    
+    .form1 {
+        display: flex;
+    }
+
+    form {
+        margin-top: auto;
+        margin-bottom: auto;
+    } #search_field {
+        width: 100%;
+    }
+
+
+
+
+}

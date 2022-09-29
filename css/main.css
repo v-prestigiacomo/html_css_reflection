@@ -10,4 +10,59 @@ body {
   background-color: lightblue;
 }
 
+/* line 14, ../../../netMatters/Reflections/html_css_reflection/scss/base/_base.scss */
+.header_container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* line 19, ../../../netMatters/Reflections/html_css_reflection/scss/base/_base.scss */
+.header_container img {
+  width: 60%;
+  height: 60%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 20px;
+}
+
+/* line 27, ../../../netMatters/Reflections/html_css_reflection/scss/base/_base.scss */
+.header_container .btn_support {
+  display: none;
+}
+
+/* line 30, ../../../netMatters/Reflections/html_css_reflection/scss/base/_base.scss */
+.header_container .btn_contact {
+  display: none;
+}
+
+/* line 33, ../../../netMatters/Reflections/html_css_reflection/scss/base/_base.scss */
+.header_container .fa-border {
+  background-color: #333645;
+}
+
+/* line 37, ../../../netMatters/Reflections/html_css_reflection/scss/base/_base.scss */
+.header_container .fa-phone {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 15px;
+  width: 20%;
+}
+
+/* line 44, ../../../netMatters/Reflections/html_css_reflection/scss/base/_base.scss */
+.header_container .form1 {
+  display: flex;
+}
+
+/* line 48, ../../../netMatters/Reflections/html_css_reflection/scss/base/_base.scss */
+.header_container form {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* line 51, ../../../netMatters/Reflections/html_css_reflection/scss/base/_base.scss */
+.header_container #search_field {
+  width: 100%;
+}
+
 /*# sourceMappingURL=main.css.map */
