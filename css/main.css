@@ -1,0 +1,13 @@
+/* line 3, ../../../netMatters/Reflections/html_css_reflection/scss/base/_base.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 7, ../../../netMatters/Reflections/html_css_reflection/scss/base/_base.scss */
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: lightblue;
+}
+
+/*# sourceMappingURL=main.css.map */
