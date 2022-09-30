@@ -14,16 +14,7 @@
         grid-template-columns: 1fr;
         justify-items: center;
         .services_card_bespoke {
-            display: grid;
-            width: 90%;
-            max-width: 450px;
-            grid-template-columns: 1fr;
-            justify-items: center;
-            background-color: white;
-            border-radius: 5%;
-            margin: 0px 30px 10px 30px;
-            padding: 10px;
-            box-shadow: 0px 0px 20px rgba(#000, 0.4);
+            @include service_card;
             .fa-th {
                 border: 2px solid #67809f;
                 border-radius: 50%;
@@ -43,19 +34,16 @@
                 padding: 20px;
                 text-align: center;
             }
+            .read_btn{
+                padding: 15px;
+                color: white;
+                background-color: #ce4125;
+                border-radius: 10%;
+            }
         }
         // IT
         .services_card_it {
-            display: grid;
-            width: 90%;
-            max-width: 450px;
-            grid-template-columns: 1fr;
-            justify-items: center;
-            background-color: white;
-            border-radius: 5%;
-            margin: 0px 30px 10px 30px;
-            padding: 10px;
-            box-shadow: 0px 0px 20px rgba(#000, 0.4);
+            @include service_card;
             .fa-th {
                 border: 2px solid #67809f;
                 border-radius: 50%;
@@ -73,20 +61,17 @@
             .it_text {
                 padding: 20px;
                 text-align: center;
+            }
+            .read_btn{
+                padding: 15px;
+                color: white;
+                background-color: #ce4125;
+                border-radius: 10%;
             }
         }
         // Marketing
-        .marketing_card_it {
-            display: grid;
-            width: 90%;
-            max-width: 450px;
-            grid-template-columns: 1fr;
-            justify-items: center;
-            background-color: white;
-            border-radius: 5%;
-            margin: 0px 30px 10px 30px;
-            padding: 10px;
-            box-shadow: 0px 0px 20px rgba(#000, 0.4);
+        .services_card_marketing {
+            @include service_card;
             .fa-th {
                 border: 2px solid #67809f;
                 border-radius: 50%;
@@ -105,19 +90,137 @@
                 padding: 20px;
                 text-align: center;
             }
+            .read_btn{
+                padding: 15px;
+                color: white;
+                background-color: #ce4125;
+                border-radius: 10%;
+            }
         }
     }
-
+    //Tele
+    .services_card_container_row_2 {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        .services_card_tele {
+            @include service_card;
+            .fa-th {
+                border: 2px solid #67809f;
+                border-radius: 50%;
+                background: #67809f;
+                padding: 20px;
+            }
+            .card_heading {
+               color: #333645;
+               font-size: 100%; 
+            }
+            span {
+                display:block;
+                width: 40px; 
+                border-top: 2px solid rgb(0, 0, 0);
+            }
+            .tele_text {
+                padding: 20px;
+                text-align: center;
+            }
+            .read_btn{
+                padding: 15px;
+                color: white;
+                background-color: #ce4125;
+                border-radius: 10%;
+            }
+        }
+        // Web
+        .services_card_web {
+            @include service_card;
+            .fa-th {
+                border: 2px solid #67809f;
+                border-radius: 50%;
+                background: #67809f;
+                padding: 20px;
+            }.card_heading {
+                color: #333645;
+                font-size: 100%; 
+            }
+            span {
+                display:block;
+                width: 40px; 
+                border-top: 2px solid rgb(0, 0, 0);
+            }
+            .web_text {
+                padding: 20px;
+                text-align: center;
+            }
+            .read_btn{
+                padding: 15px;
+                color: white;
+                background-color: #ce4125;
+                border-radius: 10%;
+            }
+        }
+        // Cyber
+        .services_card_cyber {
+            @include service_card;
+            .fa-th {
+                border: 2px solid #67809f;
+                border-radius: 50%;
+                background: #67809f;
+                padding: 20px;
+            }.card_heading {
+                color: #333645;
+                font-size: 100%; 
+            }
+            span {
+                display:block;
+                width: 40px; 
+                border-top: 2px solid rgb(0, 0, 0);
+            }
+            .cyber_text {
+                padding: 20px;
+                text-align: center;
+            }
+            .read_btn{
+                padding: 15px;
+                color: white;
+                background-color: #ce4125;
+                border-radius: 10%;
+            }
+        }
+        // Development
+        .services_card_dev {
+            @include service_card;
+            .fa-th {
+                border: 2px solid #67809f;
+                border-radius: 50%;
+                background: #67809f;
+                padding: 20px;
+            }.card_heading {
+                color: #333645;
+                font-size: 100%; 
+            }
+            span {
+                display:block;
+                width: 40px; 
+                border-top: 2px solid rgb(0, 0, 0);
+            }
+            .dev_text {
+                padding: 20px;
+                text-align: center;
+            }
+            .read_btn{
+                padding: 15px;
+                color: white;
+                background-color: #ce4125;
+                border-radius: 10%;
+            }
+        }
+    }
 }
 
 // Media Queries
 
-@media screen and (min-width: 800px) {
-    .services_container {
-        .services_card_container {
-        }
-    }    
-}
 
 @media screen and (min-width: 1024px) {
     .services_container {
@@ -126,5 +229,11 @@
             padding-left: 15%;
             padding-right: 15%;
         }
-    }    
+        .services_card_container_row_2 {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            padding-left: 15%;
+            padding-right: 15%;
+        }
+    } 
+       
 }

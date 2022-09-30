@@ -1,0 +1,16 @@
+// Mixins
+
+// Services card
+
+@mixin service_card {
+    display: grid;
+    width: 90%;
+    max-width: 450px;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    background-color: white;
+    border-radius: 5%;
+    margin: 0px 30px 10px 30px;
+    padding: 10px;
+    box-shadow: 0px 0px 20px rgba(#000, 0.4);
+}
