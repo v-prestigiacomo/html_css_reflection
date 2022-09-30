@@ -3,17 +3,17 @@
   box-sizing: border-box;
 }
 
-/* line 7, ../../../netMatters/Reflections/html_css_reflection/scss/base/_base.scss */
+/* line 12, ../../../netMatters/Reflections/html_css_reflection/scss/base/_base.scss */
 body {
   margin: 0px;
   padding: 0px;
-  background-color: lightblue;
+  background-color: #dddddd;
   font-family: 'Lato', sans-serif;
   font-family: 'Open Sans', sans-serif;
   font-family: 'Poppins', sans-serif;
 }
 
-/* line 18, ../../../netMatters/Reflections/html_css_reflection/scss/base/_base.scss */
+/* line 2, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
 .header_container {
   display: flex;
   justify-content: center;
@@ -21,7 +21,7 @@ body {
   background-color: white;
 }
 
-/* line 24, ../../../netMatters/Reflections/html_css_reflection/scss/base/_base.scss */
+/* line 8, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
 .header_container img {
   width: 201px;
   height: 35px;
@@ -30,17 +30,17 @@ body {
   margin-right: 15px;
 }
 
-/* line 32, ../../../netMatters/Reflections/html_css_reflection/scss/base/_base.scss */
+/* line 16, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
 .header_container .btn_support {
   display: none;
 }
 
-/* line 36, ../../../netMatters/Reflections/html_css_reflection/scss/base/_base.scss */
+/* line 20, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
 .header_container .btn_contact {
   display: none;
 }
 
-/* line 40, ../../../netMatters/Reflections/html_css_reflection/scss/base/_base.scss */
+/* line 24, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
 .header_container .fa-bars {
   background-color: #333645;
   margin-right: 15px;
@@ -48,21 +48,21 @@ body {
   margin-top: 5px;
 }
 
-/* line 47, ../../../netMatters/Reflections/html_css_reflection/scss/base/_base.scss */
+/* line 31, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
 .header_container .fa-phone {
   margin-top: auto;
   margin-bottom: auto;
   margin-right: 15px;
 }
 
-/* line 53, ../../../netMatters/Reflections/html_css_reflection/scss/base/_base.scss */
+/* line 37, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
 .header_container .form1 {
   display: flex;
   width: 100%;
   justify-content: center;
 }
 
-/* line 59, ../../../netMatters/Reflections/html_css_reflection/scss/base/_base.scss */
+/* line 43, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
 .header_container form {
   display: flex;
   margin: auto 15px auto 15px;
@@ -70,18 +70,18 @@ body {
   justify-content: center;
 }
 
-/* line 66, ../../../netMatters/Reflections/html_css_reflection/scss/base/_base.scss */
+/* line 50, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
 .header_container .nav_container {
   display: none;
 }
 
 @media screen and (min-width: 800px) {
-  /* line 75, ../../../netMatters/Reflections/html_css_reflection/scss/base/_base.scss */
+  /* line 59, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container img {
     width: 402px;
     height: 70px;
   }
-  /* line 80, ../../../netMatters/Reflections/html_css_reflection/scss/base/_base.scss */
+  /* line 64, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container .btn_contact, .header_container .btn_support {
     display: inline;
     margin: 10px 15px;
@@ -89,32 +89,32 @@ body {
     border-radius: 5%;
     font-size: small;
   }
-  /* line 87, ../../../netMatters/Reflections/html_css_reflection/scss/base/_base.scss */
+  /* line 71, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container .btn_contact .fa-paper-plane, .header_container .btn_support .fa-paper-plane {
     display: inline;
   }
-  /* line 91, ../../../netMatters/Reflections/html_css_reflection/scss/base/_base.scss */
+  /* line 75, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container .btn_contact .fa-mouse, .header_container .btn_support .fa-mouse {
     display: inline;
   }
-  /* line 95, ../../../netMatters/Reflections/html_css_reflection/scss/base/_base.scss */
+  /* line 79, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container .btn_contact h2, .header_container .btn_support h2 {
     display: inline;
     margin: auto;
   }
-  /* line 101, ../../../netMatters/Reflections/html_css_reflection/scss/base/_base.scss */
+  /* line 85, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container .btn_contact {
     background-color: #999aa2;
   }
-  /* line 105, ../../../netMatters/Reflections/html_css_reflection/scss/base/_base.scss */
+  /* line 89, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container .btn_support {
     background-color: #4183d7;
   }
-  /* line 109, ../../../netMatters/Reflections/html_css_reflection/scss/base/_base.scss */
+  /* line 93, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container .fa-phone {
     display: none;
   }
-  /* line 113, ../../../netMatters/Reflections/html_css_reflection/scss/base/_base.scss */
+  /* line 97, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container .nav_container {
     display: flex;
     background-color: #333645;
@@ -122,43 +122,219 @@ body {
     width: 100%;
     justify-content: center;
   }
-  /* line 119, ../../../netMatters/Reflections/html_css_reflection/scss/base/_base.scss */
+  /* line 103, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container .nav_container .nav {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: repeat(7, 1fr);
     width: auto;
   }
-  /* line 125, ../../../netMatters/Reflections/html_css_reflection/scss/base/_base.scss */
+  /* line 109, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container .nav_container .nav > div {
     display: inline;
     padding: auto 10px auto;
     margin: 0px;
-    border-right: 1px solid rgba(255, 255, 255, 0.1);
-    border-left: 1px solid rgba(0, 0, 0, 0.25);
     width: 110px;
   }
-  /* line 132, ../../../netMatters/Reflections/html_css_reflection/scss/base/_base.scss */
+  /* line 114, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container .nav_container .nav > div > p {
     text-align: center;
     color: white;
   }
 }
 
-/* line 148, ../../../netMatters/Reflections/html_css_reflection/scss/base/_base.scss */
+/* line 3, ../../../netMatters/Reflections/html_css_reflection/scss/banner/_banner.scss */
 .banner_container {
   display: flex;
   justify-content: center;
-}
-
-/* line 151, ../../../netMatters/Reflections/html_css_reflection/scss/base/_base.scss */
-.banner_container img {
   width: 100%;
+  height: 500px;
+  margin: 0px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.836), rgba(0, 0, 0, 0)), url("/img/home-oaVs.webp");
+  background-size: cover;
 }
 
-/* line 154, ../../../netMatters/Reflections/html_css_reflection/scss/base/_base.scss */
-.banner_container .banner_img {
-  flex-shrink: 0;
+/* line 11, ../../../netMatters/Reflections/html_css_reflection/scss/banner/_banner.scss */
+.banner_container .banner_txt {
+  max-width: 800px;
+}
+
+/* line 13, ../../../netMatters/Reflections/html_css_reflection/scss/banner/_banner.scss */
+.banner_container .banner_txt h1 {
+  font-size: 250%;
+  color: white;
+  text-align: center;
+}
+
+/* line 19, ../../../netMatters/Reflections/html_css_reflection/scss/banner/_banner.scss */
+.banner_container .banner_txt p {
+  font-size: 125%;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+  /* line 30, ../../../netMatters/Reflections/html_css_reflection/scss/banner/_banner.scss */
+  .banner_container .banner_txt h1 {
+    font-size: 300%;
+    text-align: left;
+  }
+  /* line 34, ../../../netMatters/Reflections/html_css_reflection/scss/banner/_banner.scss */
+  .banner_container .banner_txt p {
+    font-size: 150%;
+    text-align: left;
+  }
+}
+
+/* line 4, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+.services_container .services_heading {
+  padding-left: 30px;
+}
+
+/* line 6, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+.services_container .services_heading h1 {
+  color: #333645;
+}
+
+/* line 11, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+.services_container .services_card_container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+/* line 16, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+.services_container .services_card_container .services_card_bespoke {
+  display: grid;
+  width: 90%;
+  max-width: 450px;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  background-color: white;
+  border-radius: 5%;
+  margin: 0px 30px 10px 30px;
+  padding: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* line 27, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+.services_container .services_card_container .services_card_bespoke .fa-th {
+  border: 2px solid #67809f;
+  border-radius: 50%;
+  background: #67809f;
+  padding: 20px;
+}
+
+/* line 33, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+.services_container .services_card_container .services_card_bespoke .card_heading {
+  color: #333645;
+  font-size: 100%;
+}
+
+/* line 37, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+.services_container .services_card_container .services_card_bespoke span {
+  display: block;
+  width: 40px;
+  border-top: 2px solid black;
+}
+
+/* line 42, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+.services_container .services_card_container .services_card_bespoke .bespoke_text {
+  padding: 20px;
+  text-align: center;
+}
+
+/* line 48, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+.services_container .services_card_container .services_card_it {
+  display: grid;
+  width: 90%;
+  max-width: 450px;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  background-color: white;
+  border-radius: 5%;
+  margin: 0px 30px 10px 30px;
+  padding: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* line 59, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+.services_container .services_card_container .services_card_it .fa-th {
+  border: 2px solid #67809f;
+  border-radius: 50%;
+  background: #67809f;
+  padding: 20px;
+}
+
+/* line 64, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+.services_container .services_card_container .services_card_it .card_heading {
+  color: #333645;
+  font-size: 100%;
+}
+
+/* line 68, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+.services_container .services_card_container .services_card_it span {
+  display: block;
+  width: 40px;
+  border-top: 2px solid black;
+}
+
+/* line 73, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+.services_container .services_card_container .services_card_it .it_text {
+  padding: 20px;
+  text-align: center;
+}
+
+/* line 79, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+.services_container .services_card_container .marketing_card_it {
+  display: grid;
+  width: 90%;
+  max-width: 450px;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  background-color: white;
+  border-radius: 5%;
+  margin: 0px 30px 10px 30px;
+  padding: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* line 90, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+.services_container .services_card_container .marketing_card_it .fa-th {
+  border: 2px solid #67809f;
+  border-radius: 50%;
+  background: #67809f;
+  padding: 20px;
+}
+
+/* line 95, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+.services_container .services_card_container .marketing_card_it .card_heading {
+  color: #333645;
+  font-size: 100%;
+}
+
+/* line 99, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+.services_container .services_card_container .marketing_card_it span {
+  display: block;
+  width: 40px;
+  border-top: 2px solid black;
+}
+
+/* line 104, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+.services_container .services_card_container .marketing_card_it .it_text {
+  padding: 20px;
+  text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  /* line 124, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+  .services_container .services_card_container {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
