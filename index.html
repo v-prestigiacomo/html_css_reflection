@@ -4,23 +4,70 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/5a7c1b41fe.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@300&family=Poppins:wght@200;400;700&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="main_container">
             <div class="header_container">
                 <img src="img/f-logo.png" href="#">
-                <div class="btn_support"><h2>Support</h2></div>
-                <div class="btn_contact"><h2>Contact</h2></div>
+                <div class="btn_support">
+                    <i class="fas fa-mouse fa-2x"></i>
+                    <h2>Support</h2>
+                </div>
+                <div class="btn_contact">
+                    <i class="fa-solid fa-paper-plane fa-2x"></i>
+                    <h2>Contact</h2>
+                </div>
                 <i class="fa fa-phone" style="font-size:48px"></i>
                 <i class="fa fa-bars fa-inverse fa-border fa-3x"></i>
                 <div class="form1">
                     <form>
-                        <input type="text" id="search_field" name="search"> 
-                        <input type="submit" id="search_submit" name="submit">
+                        <input type="text" placeholder="Seach..." id="search_field" name="search"> 
+                        <button type="submit" id="search_submit" name="submit">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
                     </form>
                 </div>
+                <div class="nav_container">
+                    <div class="nav">
+                        <div class="nav_bespoke">
+                            <p class="small_txt">BESPOKE</p>
+                            <p class="large_txt">SOFTWARE</p>
+                        </div>
+                        <div class="nav_it">
+                            <p class="small_txt">IT</p>
+                            <p class="large_txt">SUPPORT</p>
+                        </div>
+                        <div class="nav_digital">
+                            <p class="small_txt">DIGITAL</p>
+                            <p class="large_txt">MARKETING</p>
+                        </div>
+                        <div class="nav_telecoms">
+                            <p class="small_txt">TELECOMS</p>
+                            <p class="large_txt">SOLUTIONS</p>
+                        </div>
+                        <div class="nav_web">
+                            <p class="small_txt">WEB</p>
+                            <p class="large_txt">DESIGN</p>
+                        </div>
+                        <div class="nav_cyber">
+                            <p class="small_txt">CYBER</p>
+                            <p class="large_txt">SECURITY</p>
+                        </div>
+                        <div class="nav_developer">
+                            <p class="small_txt">DEVELOPER</p>
+                            <p class="large_txt">TRAINING</p>
+                        </div>
+                    </div>
+                </div>
             </div>
+            
+        </div>
+        <div class="banner_container">
+            <img class="banner_img" src="/img/home-oaVs.webp">
         </div>
     </body>
 </html>

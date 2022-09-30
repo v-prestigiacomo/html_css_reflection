@@ -8,6 +8,10 @@ body {
     margin: 0px;
     padding: 0px;
     background-color: lightblue;
+
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 // header
@@ -15,44 +19,139 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    background-color: white;
 
     img {
-        width: 60%;
-        height: 60%;
+        width: 201px;
+        height: 35px;
         margin-top: auto;
         margin-bottom: auto; 
-        margin-right: 20px;   
+        margin-right: 15px;   
     }
 
     .btn_support {
         display: none;
     }
+
     .btn_contact {
         display: none;
     }
-    .fa-border {
+
+    .fa-bars {
         background-color: #333645;
+        margin-right: 15px;
+        margin-left: auto;
+        margin-top: 5px;
     }
 
     .fa-phone {
         margin-top: auto;
         margin-bottom: auto;
         margin-right: 15px;
-        width: 20%;
     }
     
     .form1 {
         display: flex;
+        width: 100%;
+        justify-content: center;
     }
 
     form {
-        margin-top: auto;
-        margin-bottom: auto;
-    } #search_field {
+        display: flex;
+        margin: auto 15px auto 15px;
+        width: 100%;   
+        justify-content: center;     
+    } 
+
+    .nav_container {
+        display: none;
+    }
+}
+
+
+// Header Media Queries
+@media screen and (min-width: 800px) {
+    .header_container {
+        img {
+            width: 402px;
+            height: 70px;
+        }   
+
+        .btn_contact, .btn_support {
+            display: inline;
+            margin: 10px 15px;
+            padding: 10px 15px;
+            border-radius: 5%;
+            font-size: small;
+
+            .fa-paper-plane {
+                display: inline;
+            }
+
+            .fa-mouse {
+                display: inline;
+            }
+
+            h2 {
+                display: inline;
+                margin: auto;
+            }
+        }
+
+        .btn_contact {
+            background-color: #999aa2;
+        }
+
+        .btn_support {
+            background-color: #4183d7;
+        }
+
+        .fa-phone {
+            display: none;
+        }
+// Nav bar
+        .nav_container {
+            display: flex;
+            background-color: #333645;
+            height: 100px;
+            width: 100%;
+            justify-content: center;
+            .nav {
+                display: grid;
+                grid-template-rows: 1fr;
+                grid-template-columns: repeat(7, 1fr);
+                width: auto;
+
+                > div {
+                    display: inline;
+                    padding: auto 10px auto;
+                    margin: 0px;
+                    border-right: 1px solid rgba(255,255,255,0.1);
+                    border-left: 1px solid rgba(0, 0, 0, 0.25);
+                    width: 110px;
+                    > p {
+                        text-align: center;
+                        color: white;
+                    }
+                }
+            }
+        }
+
+        
+
+    } 
+}
+
+
+// Banner
+
+.banner_container {
+    display: flex;
+    justify-content: center;
+    img {
         width: 100%;
     }
-
-
-
-
+    .banner_img {
+        flex-shrink: 0;
+    }
 }
