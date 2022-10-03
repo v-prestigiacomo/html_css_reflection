@@ -189,7 +189,7 @@ body {
 
 /* line 4, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_heading {
-  padding-left: 30px;
+  padding-left: 15%;
 }
 
 /* line 6, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
@@ -250,7 +250,7 @@ body {
 .services_container .services_card_container .services_card_bespoke .read_btn {
   padding: 15px;
   color: white;
-  background-color: #ce4125;
+  background-color: #67809f;
   border-radius: 10%;
 }
 
@@ -269,10 +269,10 @@ body {
 }
 
 /* line 47, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
-.services_container .services_card_container .services_card_it .fa-th {
-  border: 2px solid #67809f;
+.services_container .services_card_container .services_card_it .fa-desktop {
+  border: 2px solid #4183d7;
   border-radius: 50%;
-  background: #67809f;
+  background: #4183d7;
   padding: 20px;
 }
 
@@ -299,7 +299,7 @@ body {
 .services_container .services_card_container .services_card_it .read_btn {
   padding: 15px;
   color: white;
-  background-color: #ce4125;
+  background-color: #4183d7;
   border-radius: 10%;
 }
 
@@ -318,10 +318,10 @@ body {
 }
 
 /* line 75, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
-.services_container .services_card_container .services_card_marketing .fa-th {
-  border: 2px solid #67809f;
+.services_container .services_card_container .services_card_marketing .fa-signal {
+  border: 2px solid #2ecc71;
   border-radius: 50%;
-  background: #67809f;
+  background: #2ecc71;
   padding: 20px;
 }
 
@@ -348,7 +348,7 @@ body {
 .services_container .services_card_container .services_card_marketing .read_btn {
   padding: 15px;
   color: white;
-  background-color: #ce4125;
+  background-color: #2ecc71;
   border-radius: 10%;
 }
 
@@ -375,10 +375,10 @@ body {
 }
 
 /* line 109, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
-.services_container .services_card_container_row_2 .services_card_tele .fa-th {
-  border: 2px solid #67809f;
+.services_container .services_card_container_row_2 .services_card_tele .fa-phone {
+  border: 2px solid #d64541;
   border-radius: 50%;
-  background: #67809f;
+  background: #d64541;
   padding: 20px;
 }
 
@@ -405,7 +405,7 @@ body {
 .services_container .services_card_container_row_2 .services_card_tele .read_btn {
   padding: 15px;
   color: white;
-  background-color: #ce4125;
+  background-color: #d64541;
   border-radius: 10%;
 }
 
@@ -424,10 +424,10 @@ body {
 }
 
 /* line 138, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
-.services_container .services_card_container_row_2 .services_card_web .fa-th {
-  border: 2px solid #67809f;
+.services_container .services_card_container_row_2 .services_card_web .fa-code {
+  border: 2px solid #926fb1;
   border-radius: 50%;
-  background: #67809f;
+  background: #926fb1;
   padding: 20px;
 }
 
@@ -454,7 +454,7 @@ body {
 .services_container .services_card_container_row_2 .services_card_web .read_btn {
   padding: 15px;
   color: white;
-  background-color: #ce4125;
+  background-color: #926fb1;
   border-radius: 10%;
 }
 
@@ -473,10 +473,10 @@ body {
 }
 
 /* line 166, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
-.services_container .services_card_container_row_2 .services_card_cyber .fa-th {
-  border: 2px solid #67809f;
+.services_container .services_card_container_row_2 .services_card_cyber .fa-shield {
+  border: 2px solid #f62459;
   border-radius: 50%;
-  background: #67809f;
+  background: #f62459;
   padding: 20px;
 }
 
@@ -503,7 +503,7 @@ body {
 .services_container .services_card_container_row_2 .services_card_cyber .read_btn {
   padding: 15px;
   color: white;
-  background-color: #ce4125;
+  background-color: #f62459;
   border-radius: 10%;
 }
 
@@ -522,10 +522,10 @@ body {
 }
 
 /* line 194, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
-.services_container .services_card_container_row_2 .services_card_dev .fa-th {
-  border: 2px solid #67809f;
+.services_container .services_card_container_row_2 .services_card_dev .fa-graduation-cap {
+  border: 2px solid #ce4125;
   border-radius: 50%;
-  background: #67809f;
+  background: #ce4125;
   padding: 20px;
 }
 
@@ -565,9 +565,120 @@ body {
   }
   /* line 232, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
   .services_container .services_card_container_row_2 {
+    grid-template-columns: 1fr 1fr;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+
+@media screen and (min-width: 1640px) {
+  /* line 243, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+  .services_container .services_card_container_row_2 {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding-left: 15%;
     padding-right: 15%;
+  }
+}
+
+/* line 3, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
+.txt_section_container {
+  background-color: #333645;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 40px 20%;
+}
+
+/* line 8, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
+.txt_section_container .txt_group_1 {
+  margin: 20px;
+}
+
+/* line 10, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
+.txt_section_container .txt_group_1 h2 {
+  color: white;
+}
+
+/* line 14, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
+.txt_section_container .txt_group_1 p {
+  color: white;
+  margin: 0px 0px 25px;
+}
+
+/* line 19, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
+.txt_section_container .txt_group_1 .p_bold {
+  font-weight: bold;
+}
+
+/* line 23, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
+.txt_section_container .txt_group_1 .read_btn {
+  display: inline;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 20px;
+  background-color: #272936;
+  color: white;
+  border-radius: 6px;
+}
+
+/* line 34, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
+.txt_section_container .txt_group_2 {
+  margin: 20px;
+}
+
+/* line 36, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
+.txt_section_container .txt_group_2 h2 {
+  color: white;
+}
+
+/* line 40, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
+.txt_section_container .txt_group_2 p {
+  color: white;
+}
+
+/* line 44, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
+.txt_section_container .txt_group_2 .review_buttons {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+/* line 47, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
+.txt_section_container .txt_group_2 .review_buttons .greview {
+  display: inline;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  background-color: #4387f6;
+  border-radius: 6px;
+}
+
+/* line 55, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
+.txt_section_container .txt_group_2 .review_buttons .treview {
+  display: inline;
+  text-align: center;
+  padding: 20px;
+  background-color: #00b67b;
+  border-radius: 6px;
+}
+
+@media screen and (min-width: 600px) {
+  /* line 73, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
+  .txt_section_container .txt_group_2 .review_buttons {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  /* line 81, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
+  .txt_section_container {
+    grid-template-columns: 1fr 1fr;
+  }
+  /* line 84, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
+  .txt_group_1 {
+    margin-right: 40px;
+  }
+  /* line 87, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
+  .txt_group_2 {
+    margin-left: 40px;
   }
 }
 

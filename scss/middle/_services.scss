@@ -2,7 +2,7 @@
 
 .services_container {
     .services_heading {
-        padding-left: 30px;
+        padding-left: 15%;
         h1 {
             color: #333645;
         }
@@ -37,17 +37,17 @@
             .read_btn{
                 padding: 15px;
                 color: white;
-                background-color: #ce4125;
+                background-color: #67809f;
                 border-radius: 10%;
             }
         }
         // IT
         .services_card_it {
             @include service_card;
-            .fa-th {
-                border: 2px solid #67809f;
+            .fa-desktop {
+                border: 2px solid #4183d7;
                 border-radius: 50%;
-                background: #67809f;
+                background: #4183d7;
                 padding: 20px;
             }.card_heading {
                 color: #333645;
@@ -65,17 +65,17 @@
             .read_btn{
                 padding: 15px;
                 color: white;
-                background-color: #ce4125;
+                background-color: #4183d7;
                 border-radius: 10%;
             }
         }
         // Marketing
         .services_card_marketing {
             @include service_card;
-            .fa-th {
-                border: 2px solid #67809f;
+            .fa-signal {
+                border: 2px solid #2ecc71;
                 border-radius: 50%;
-                background: #67809f;
+                background: #2ecc71;
                 padding: 20px;
             }.card_heading {
                 color: #333645;
@@ -93,7 +93,7 @@
             .read_btn{
                 padding: 15px;
                 color: white;
-                background-color: #ce4125;
+                background-color: #2ecc71;
                 border-radius: 10%;
             }
         }
@@ -106,10 +106,10 @@
         justify-items: center;
         .services_card_tele {
             @include service_card;
-            .fa-th {
-                border: 2px solid #67809f;
+            .fa-phone {
+                border: 2px solid #d64541;
                 border-radius: 50%;
-                background: #67809f;
+                background: #d64541;
                 padding: 20px;
             }
             .card_heading {
@@ -128,17 +128,17 @@
             .read_btn{
                 padding: 15px;
                 color: white;
-                background-color: #ce4125;
+                background-color: #d64541;
                 border-radius: 10%;
             }
         }
         // Web
         .services_card_web {
             @include service_card;
-            .fa-th {
-                border: 2px solid #67809f;
+            .fa-code {
+                border: 2px solid #926fb1;
                 border-radius: 50%;
-                background: #67809f;
+                background: #926fb1;
                 padding: 20px;
             }.card_heading {
                 color: #333645;
@@ -156,17 +156,17 @@
             .read_btn{
                 padding: 15px;
                 color: white;
-                background-color: #ce4125;
+                background-color: #926fb1;
                 border-radius: 10%;
             }
         }
         // Cyber
         .services_card_cyber {
             @include service_card;
-            .fa-th {
-                border: 2px solid #67809f;
+            .fa-shield {
+                border: 2px solid #f62459;
                 border-radius: 50%;
-                background: #67809f;
+                background: #f62459;
                 padding: 20px;
             }.card_heading {
                 color: #333645;
@@ -184,17 +184,17 @@
             .read_btn{
                 padding: 15px;
                 color: white;
-                background-color: #ce4125;
+                background-color: #f62459;
                 border-radius: 10%;
             }
         }
         // Development
         .services_card_dev {
             @include service_card;
-            .fa-th {
-                border: 2px solid #67809f;
+            .fa-graduation-cap {
+                border: 2px solid #ce4125;
                 border-radius: 50%;
-                background: #67809f;
+                background: #ce4125;
                 padding: 20px;
             }.card_heading {
                 color: #333645;
@@ -230,10 +230,20 @@
             padding-right: 15%;
         }
         .services_card_container_row_2 {
-            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr;
             padding-left: 15%;
             padding-right: 15%;
         }
     } 
        
+}
+
+@media screen and (min-width: 1640px) {
+    .services_container {
+        .services_card_container_row_2 {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            padding-left: 15%;
+            padding-right: 15%;
+        }
+    }
 }
