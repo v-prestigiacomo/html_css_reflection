@@ -21,35 +21,59 @@
         grid-template-columns: 1fr;
 
         .article_1 {
+            display: inline;
             background-color: white;
-            max-width: auto;
+            max-width: 455px;
+            width: 100%;
             height: 400px;
-            margin: auto auto 40px;
             img {
                 object-fit: cover;
-                max-width: 500px;
+                max-width: 455px;
+                width: 100%;
+            }
+            .article_btn_1 {
+                display: inline;
+                padding: 20px;
+                background-color: #d64541;
+                border-radius: 6px;
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+            span {
+                display: inline-block;
+                justify-self: center;
+                width: 80%;
+                border-top: 1px solid rgba(#000000, 0.3);
+            }
+
+            #logo {
+                width: 100px;
             }
         }
         .article_2 {
             display: none;
             background-color: white;
             max-width: 455px;
+            width: 100%;
             height: 400px;
-            margin: auto auto 40px;
             img {
                 object-fit: cover;
                 max-width: 455px;
+                width: 100%;
             }
         }
         .article_3 {
             display: none;
             background-color: white;
             max-width: 455px;
+            width: 100%;
             height: 400px;
-            margin: auto auto 40px;
             img {
                 object-fit: cover;
                 max-width: 455px;
+                width: 100%;
             }
         }
     }
@@ -61,6 +85,24 @@
     .news_container {
         .headings {
             a {
+                display: inline;
+            }
+        }
+            .article_cards {
+                grid-template-columns: 1fr 1fr;
+            .article_2 {
+                display: inline;
+            }
+        }
+
+    }
+}
+
+@media screen and (min-width: 1850px) {
+    .news_container {
+        .article_cards {
+            grid-template-columns: 1fr 1fr 1fr;
+            .article_3 {
                 display: inline;
             }
         }
