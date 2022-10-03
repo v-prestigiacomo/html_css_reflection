@@ -108,12 +108,52 @@
 
                 > div {
                     display: inline;
-                    padding: auto 10px auto;
+                    padding: 10px 10px;
                     margin: 0px;
                     width: 110px;
+                    text-align: center;
                     > p {
                         text-align: center;
                         color: white;
+                        margin: 5px auto;
+                    }
+                    .small_txt {
+                        font-size: 70%;
+                    }
+
+                    .fa-th {
+                        padding: 5px;
+                        color: #67809f;
+                    }
+
+                    .fa-desktop {
+                        padding: 5px;
+                        color: #4183d7;
+                    }
+
+                    .fa-bar-chart {
+                        padding: 5px;
+                        color: #2ecc71;
+                    }
+
+                    .fa-phone {
+                        padding: 5px;
+                        color: #d64541;
+                    }
+
+                    .fa-code {
+                        padding: 5px;
+                        color: #926fb1;
+                    }
+
+                    .fa-shield {
+                        padding: 5px;
+                        color: #f62459;
+                    }
+
+                    .fa-graduation-cap {
+                        padding: 5px;
+                        color: #ce4125;
                     }
                 }
             }

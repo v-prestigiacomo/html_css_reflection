@@ -41,6 +41,20 @@
             color: white;
         }
 
+        .fa-star {
+            color: orange;
+        }
+
+        .star {
+            display: flex;
+            justify-content: center;
+        }
+
+        .quote {
+            font-style: italic;
+            font-weight: bold;
+        }
+
         .review_buttons {
             display: grid;
             grid-template-columns: 1fr;
