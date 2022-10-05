@@ -634,7 +634,7 @@ body {
   background-color: #333645;
   display: grid;
   grid-template-columns: 1fr;
-  padding: 40px 20%;
+  padding: 40px 15%;
 }
 
 /* line 8, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
@@ -751,7 +751,7 @@ body {
 /* line 3, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container {
   display: grid;
-  padding: 40px 10%;
+  padding: 40px 15%;
 }
 
 /* line 6, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
