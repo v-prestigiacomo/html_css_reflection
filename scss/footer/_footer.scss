@@ -1,0 +1,129 @@
+// Footer Section
+
+.footer_background {
+    background-color: #333645;
+    padding: 47px 0px 43px;
+    .footer_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+            "about services"
+            "cambridge wymondham"
+            "yarmouth yarmouth";
+        justify-content: center;
+        margin: auto 10%;
+        
+            .footer {
+                display: block;
+                margin: 10px auto;
+                padding: 10px;
+                
+            }
+
+            .footer > h3 {
+                color: white;
+                font-weight: normal;
+                font-size: 0.85rem;
+            }
+        
+            .footer > a {
+                display: block;
+                margin: 0px 0px;
+                text-decoration: none;
+                color: white;
+                font-size: 0.7rem;
+            }
+            
+            .footer > a:hover {
+                text-decoration: underline;
+            }
+        
+            .footer > p {
+                margin: 0px 0px;
+                color: white;
+                font-size: 0.7rem;
+            }
+    
+            .about {
+                grid-area: about;
+            }
+    
+            .services {
+                grid-area: services;
+            }
+    
+            .cambridge {
+                grid-area: cambridge;
+            }
+    
+            .wymondham {
+                grid-area: wymondham;
+            }
+    
+            .yarmouth {
+                grid-area: yarmouth;
+            }
+        
+    }
+
+    .bottom {
+        display: flex;
+        justify-content: space-between;
+        margin: auto 15%;
+        color: white;
+        font-weight: normal;
+        font-size: 0.6rem;
+        padding-top: 10px;
+        border-top: 1px solid #888;
+
+        .license {
+            display: inline-flex;
+            flex-wrap: wrap;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 0.6rem;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .social {
+            div {
+                display: inline;
+                padding: 5px;
+            }
+        }
+    }
+}
+
+// Media Queries
+
+@media screen and (min-width: 722px) {
+    .footer_background {
+        .footer_container {
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            grid-template-areas: 
+                "about about about services services services"
+                "cambridge cambridge wymondham wymondham yarmouth yarmouth";
+                
+        }
+    }
+}
+
+@media screen and (min-width: 1260px) {
+    .footer_background {
+        .footer_container {
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+            grid-template-areas: 
+                "about services cambridge wymondham yarmouth";
+                
+        }
+    }
+}

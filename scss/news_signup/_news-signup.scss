@@ -1,0 +1,92 @@
+// News Signup Form
+
+.form_background {
+    background-color: #ddd;
+    padding-top: 20px;
+    .form_container {
+        display: block;
+        margin: auto 10%;
+        #newsletter_form {
+            display: block;
+            fieldset {
+                border: none;
+                legend {
+                    font-size: 200%;
+                    color: #333645;
+
+                }
+                .input_container {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    .name_container {
+                        #name_field {
+                            width: 80%;
+                        }
+                    }
+                    .email_container {
+                        #email_field {
+                            width: 80%;
+                        }
+                    }
+                }
+                .marketing_text {
+                    display: inline-block;
+                }
+                #marketing_box {
+                    display: inline;
+                }
+                .marketing_text {
+                    display: inline;
+                    color: #333645;
+                    a {
+                        color: #333645;
+                    }
+                }
+                input[type=text] {
+                    border: none;
+                    margin: 5px 20px 20px 0px;
+                    padding: 12px 8px;
+                    border-radius: 0px;
+                    color: #333645;
+                }
+                input[type=text]:focus {
+                    outline: none;
+                    box-shadow: 0 0 10px #9ecaed;
+                }
+                input[type=checkbox] {
+                    width: 32px;
+                    height: 32px;
+                    margin-right: 10px;
+                    background-color: #333645;
+                    outline: solid 3px #333645;
+                    outline-offset: -2px;
+                    accent-color: #333645;
+                    border-radius: 20%;
+                }
+                input[type=submit] {
+                    background-color: #333645;
+                    color: white;
+                    padding: 15px 18px;
+                    border-radius: 6px;
+                    margin: 20px 0px;
+                    border-style: none;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .form_background {
+        .form_container {
+            #newsletter_form {
+                fieldset {
+                    .input_container {
+                        grid-template-columns: 1fr 1fr;
+                    }
+                }
+            }
+        }
+    }
+}

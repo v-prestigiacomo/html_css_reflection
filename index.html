@@ -35,40 +35,54 @@
             <!---Navigation Section-->
                 <div class="nav_container">
                     <div class="nav">
-                        <div class="nav_bespoke">
-                            <i class="fas fa-th icon" aria-hidden="true"></i>
-                            <p class="small_txt">BESPOKE</p>
-                            <p class="large_txt">SOFTWARE</p>
-                        </div>
+                        <a href="#">
+                            <div class="nav_bespoke">
+                                <i class="fas fa-th icon" aria-hidden="true"></i>
+                                <p class="small_txt">BESPOKE</p>
+                                <p class="large_txt">SOFTWARE</p>
+                            </div>
+                        </a>
                         <div class="nav_it">
+                            <a href="#">
                             <i class="fas fa-desktop icon" aria-hidden="true"></i>
                             <p class="small_txt">IT</p>
                             <p class="large_txt">SUPPORT</p>
+                            </a>
                         </div>
                         <div class="nav_digital">
+                            <a href="#">
                             <i class="fas fa-bar-chart icon" aria-hidden="true"></i>
                             <p class="small_txt">DIGITAL</p>
                             <p class="large_txt">MARKETING</p>
+                            </a>
                         </div>
                         <div class="nav_telecoms">
+                            <a href="#">
                             <i class="fa fa-phone" aria-hidden="true"></i>
                             <p class="small_txt">TELECOMS</p>
                             <p class="large_txt">SOLUTIONS</p>
+                            </a>
                         </div>
                         <div class="nav_web">
+                            <a href="#">
                             <i class="fas fa-code web_icon" aria-hidden="true"></i>
                             <p class="small_txt">WEB</p>
                             <p class="large_txt">DESIGN</p>
+                            </a>
                         </div>
                         <div class="nav_cyber">
+                            <a href="#">
                             <i class="fa fa-shield" aria-hidden="true"></i>
                             <p class="small_txt">CYBER</p>
                             <p class="large_txt">SECURITY</p>
+                            </a>
                         </div>
                         <div class="nav_developer">
+                            <a href="#">
                             <i class="fa-solid fa-graduation-cap"></i>
                             <p class="small_txt">DEVELOPER</p>
                             <p class="large_txt">TRAINING</p>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -104,7 +118,7 @@
                             <i class="fa-solid fa-desktop fa-2x it_icon"></i>
                         </div>
                         <div class="card_heading">
-                            <h2>It Support</h2>
+                            <h2>IT Support</h2>
                         </div>
                         <div class="it_text">
                             <p>Remotely managed IT services that is catered to your business needs, adds value & reduces costs.</p>
@@ -230,7 +244,7 @@
                             <a href="#">READ MORE</a>
                         </div>
                         <span></span>
-                        <img id="logo" src="/img/netmatters-ltd-VXAv.webp">
+                        <img class="logo" src="/img/netmatters-ltd-VXAv.webp">
                     </div>
                     <div class="article_2">
                         <img src="/img/the-green-team-6Icm.jpg">
@@ -240,6 +254,7 @@
                             <a href="#">READ MORE</a>
                         </div>
                         <span></span>
+                        <img class="logo" src="/img/netmatters-ltd-VXAv.webp">
                     </div>
                     <div class="article_3">
                         <img src="/img/-PQV1.jpg">
@@ -249,42 +264,137 @@
                             <a href="#">READ MORE</a>
                         </div>
                         <span></span>
+                        <img class="logo" src="/img/netmatters-ltd-VXAv.webp">
                     </div>
                 </div>
             </div>
             <!--News Signup Form-->
-            <form id="newsletter_form" action="#" method="post">
-                <fieldset>
-                    <legend>Email Newsletter Sign-Up</legend>
-                    <span class="name">
-                        <label for="name">
-                            <span class="name_label">
-                                Your name *
-                            </span>
+            <div class="form_background">
+                <div class="form_container">
+                    <form id="newsletter_form" action="#" method="post">
+                        <fieldset>
+                            <legend>Email Newsletter Sign-Up</legend>
+                            <div class="input_container">
+                                <span class="name_container">
+                                    <label for="name">
+                                        <span class="name_label">
+                                            Your name *
+                                        </span>
+                                        <br>
+                                        <input type="text" id="name_field" name="name">
+                                    </label>
+                                </span>
+                                <span class="email_container">
+                                    <label for="email">
+                                        <span class="email_label">
+                                            Your Email *
+                                        </span>
+                                        <br>
+                                        <input type="text" id="email_field" name="email">
+                                    </label>
+                                </span>
+                            </div>
                             <br>
-                            <input type="text" id="name_field" name="name">
-                        </label>
-                    </span>
-                    <span class="email">
-                        <label for="email">
-                            <span class="email_label">
-                                Your Email *
-                            </span>
+                            <input type="checkbox" id="marketing_box" name="marketing">
+                            <label for="marketing" class="marketing_text">
+                                "Please tick this box if you wish to receive marketing information from us. please see our " 
+                                <a href="#">Privacy Policy</a>
+                                "for more information on how we keep your data safe."
+                            </label>
                             <br>
-                            <input type="text" id="email_field" name="email">
-                        </label>
-                    </span>
+                            <input type="submit" name="submit" value="Subscribe">
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer_background">
+            <div class="footer_container">
+                <div class="footer about">
+                    <h3>ABOUT NETMATTERS</h3>
+                    <a href="#">News</a>
+                    <a href="#">Our Careers</a>
+                    <a href="#">Our Team</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Cookie Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Environmental Policy</a>
+                    <a href="#">Contact Us</a>
+                </div>
+                <div class="footer services">
+                    <h3>OUR SERVICES</h3>
+                    <a href="#">Bespoke Software</a>
+                    <a href="#">IT Support</a>
+                    <a href="#">Digital Marketing</a>
+                    <a href="#">Telecoms Services</a>
+                    <a href="#">Web Design</a>
+                    <a href="#">Cyber Security</a>
+                    <a href="#">Developer Training</a>
+                </div>
+                <div class="footer cambridge">
+                    <h3>CAMBRIDGE OFFICE</h3>
+                    <p>Unit 1.31</p>
+                    <p>St John's Innovation Centre,</p>
+                    <p>Cowley Road, Milton,</p>
+                    <p>Cambridge,</p>
+                    <p>CB4 0WS</p>
                     <br>
-                    <input type="checkbox" id="marketing_box" name="marketing">
-                    <label for="marketing">
-                        "Please tick this box if you wish to receive marketing information from us. please see our " 
-                        <a href="#">Privacy Policy</a>
-                        "for more information on how we keep your data safe."
-                    </label>
+                    <p>Tel: 01223 37 57 72</p>
+                </div>
+                <div class="footer wymondham">
+                    <h3>WYMONDHAM OFFICE</h3>
+                    <p>Unit 15,</p>
+                    <p>Penfold Drive,</p>
+                    <p>Gateway 11 Business Park,</p>
+                    <p>Wymondham, Norfolk,</p>
+                    <p>NR18 0WZ</p>
                     <br>
-                    <input type="submit" name="submit" value="Subscribe">
-                </fieldset>
-            </form>
+                    <p>Tel: 01603 70 40 20</p>
+                </div>
+                <div class="footer yarmouth">
+                    <h3>GREAT YARMOUTH OFFICE</h3>
+                    <p>Suite F23,</p>
+                    <p>Beacon Innovation Centre,</p>
+                    <p>Beacon Park, Gorleston,</p>
+                    <p>Great Yarmouth, Norfolk,</p>
+                    <p>NR31 7RA</p>
+                    <br>
+                    <p>Tel: 01493 60 32 04</p>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="license">
+                    <div class="license_a">
+                        &copy; Copyright Netmatters 2022.
+                    </div>
+                    <div class="license_b">
+                        All rights reserved. - 
+                        <a href="#">Sitemap</a>
+                    </div>
+                </div>
+                <div class="social">
+                    <div class="facebook">
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </div>
+                    <div class="twitter">
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                    <div class="insta">
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="linkedin">
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>

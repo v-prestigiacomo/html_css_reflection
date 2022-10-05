@@ -2,7 +2,7 @@
 
 .news_container {
     display: grid;
-    padding: 40px 15%;
+    padding: 40px 10%;
     .headings {
         display: flex;
         justify-content: space-between;
@@ -25,7 +25,7 @@
             background-color: white;
             max-width: 455px;
             width: 100%;
-            height: 400px;
+            height: 550px;
             img {
                 object-fit: cover;
                 max-width: 455px;
@@ -41,6 +41,9 @@
                     color: white;
                 }
             }
+            p, h3 {
+                color: #333645;
+            }
             span {
                 display: inline-block;
                 justify-self: center;
@@ -48,7 +51,8 @@
                 border-top: 1px solid rgba(#000000, 0.3);
             }
 
-            #logo {
+            .logo {
+                display: block;
                 width: 100px;
             }
         }
@@ -57,11 +61,33 @@
             background-color: white;
             max-width: 455px;
             width: 100%;
-            height: 400px;
+            height: 550px;
             img {
                 object-fit: cover;
                 max-width: 455px;
                 width: 100%;
+            }
+            .article_btn_2 {
+                display: inline;
+                padding: 20px;
+                background-color: #d64541;
+                border-radius: 6px;
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+            p, h3 {
+                color: #333645;
+            }
+            span {
+                display: inline-block;
+                justify-self: center;
+                width: 80%;
+                border-top: 1px solid rgba(#000000, 0.3);
+            }
+            .logo {
+                width: 100px;
             }
         }
         .article_3 {
@@ -69,11 +95,33 @@
             background-color: white;
             max-width: 455px;
             width: 100%;
-            height: 400px;
+            height: 550px;
             img {
                 object-fit: cover;
                 max-width: 455px;
                 width: 100%;
+            }
+            .article_btn_3 {
+                display: inline;
+                padding: 20px;
+                background-color: #d64541;
+                border-radius: 6px;
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+            p, h3 {
+                color: #333645;
+            }
+            span {
+                display: inline-block;
+                justify-self: center;
+                width: 80%;
+                border-top: 1px solid rgba(#000000, 0.3);
+            }
+            .logo {
+                width: 100px;
             }
         }
     }
