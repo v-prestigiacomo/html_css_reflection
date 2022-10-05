@@ -129,17 +129,17 @@ body {
     grid-template-columns: repeat(7, 1fr);
     width: auto;
   }
-  /* line 110, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
-  .header_container .nav_container .nav a > div {
+  /* line 109, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  .header_container .nav_container .nav a {
     display: inline;
+    text-decoration: none;
+    text-align: center;
     padding: 10px 10px;
     margin: 0px;
     width: 110px;
-    text-align: center;
   }
-  /* line 116, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 117, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container .nav_container .nav a > div > p {
-    text-align: center;
     color: white;
     margin: 5px auto;
   }

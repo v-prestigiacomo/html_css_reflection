@@ -107,14 +107,14 @@
                 width: auto;
 
                 a {
+                    display: inline;
+                    text-decoration: none;
+                    text-align: center;
+                    padding: 10px 10px;
+                    margin: 0px;
+                    width: 110px;
                     > div {
-                        display: inline;
-                        padding: 10px 10px;
-                        margin: 0px;
-                        width: 110px;
-                        text-align: center;
                         > p {
-                            text-align: center;
                             color: white;
                             margin: 5px auto;
                         }
