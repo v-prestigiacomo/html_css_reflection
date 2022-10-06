@@ -105,7 +105,7 @@
                 grid-template-rows: 1fr;
                 grid-template-columns: repeat(7, 1fr);
                 width: auto;
-
+                
                 a {
                     display: inline;
                     text-decoration: none;
@@ -158,12 +158,47 @@
                         }
                     }
                 }
+                //Bespoke Dropdown
+
+                .bespoke_drop {
+                    display: none;
+                    background: #526781;
+                    position: absolute;
+                    width: 110px;
+                    top: 197px;
+                    border-radius: 0px 0px 6px 6px;
+                    a {
+                        display: block;
+                        text-decoration: none;
+                        color: white;
+                        font-size: 0.8rem;
+                    }
+
+                    a:hover {
+                        text-decoration: underline;
+                    }
+                }
 
                 
+
+              
+
+
+                .bespoke_link:hover + .bespoke_drop {
+                    display: block;
+                }
+
+                .bespoke_drop:hover {
+                    display: block;
+                }
+
+                .bespoke_container:hover  .bespoke_link {
+                    background-color: #67809f;
+                }
+
+
+
             }
         }
-
-        
-
     } 
 }

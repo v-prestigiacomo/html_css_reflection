@@ -1,0 +1,22 @@
+// Partners Section
+
+.partner_container {
+    display: block;
+    .partner_images {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-content: center;
+        margin: 20px 15%;
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            filter: saturate(0);
+
+        }
+
+        img:hover {
+            filter: saturate(100%);
+        }
+    }
+}
