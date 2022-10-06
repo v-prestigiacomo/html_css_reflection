@@ -5,6 +5,8 @@
         padding-left: 15%;
         h1 {
             color: #333645;
+            font-weight: 600;
+            font-size: 2.25rem;
         }
     }
     //Software
@@ -13,12 +15,18 @@
         width: 100%;
         grid-template-columns: 1fr;
         justify-items: center;
+
+        a {
+            text-decoration: none;
+        }
+
         .services_card_bespoke {
             @include service_card;
             .fa-th {
                 border: 2px solid #67809f;
                 border-radius: 50%;
                 background: #67809f;
+                color: white;
                 padding: 20px;
             }
             .card_heading {
@@ -38,6 +46,9 @@
                 border-radius: 3px;
             }
         }
+
+        
+        
         // IT
         .services_card_it {
             @include service_card;
@@ -45,6 +56,7 @@
                 border: 2px solid #4183d7;
                 border-radius: 50%;
                 background: #4183d7;
+                color: white;
                 padding: 20px;
             }.card_heading {
                 color: #333645;
@@ -70,13 +82,14 @@
                 border: 2px solid #2ecc71;
                 border-radius: 50%;
                 background: #2ecc71;
+                color: white;
                 padding: 20px;
             }.card_heading {
                 color: #333645;
                 font-size: 100%; 
             }
 
-            .it_text {
+            .marketing_text {
                 padding: 20px;
                 text-align: center;
                 color: #333645;
@@ -95,12 +108,17 @@
         width: 100%;
         grid-template-columns: 1fr;
         justify-items: center;
+
+        a {
+            text-decoration: none;
+        }
         .services_card_tele {
             @include service_card;
             .fa-phone {
                 border: 2px solid #d64541;
                 border-radius: 50%;
                 background: #d64541;
+                color: white;
                 padding: 20px;
             }
             .card_heading {
@@ -127,6 +145,7 @@
                 border: 2px solid #926fb1;
                 border-radius: 50%;
                 background: #926fb1;
+                color: white;
                 padding: 20px;
             }.card_heading {
                 color: #333645;
@@ -152,6 +171,7 @@
                 border: 2px solid #f62459;
                 border-radius: 50%;
                 background: #f62459;
+                color: white;
                 padding: 20px;
             }.card_heading {
                 color: #333645;
@@ -177,6 +197,7 @@
                 border: 2px solid #ce4125;
                 border-radius: 50%;
                 background: #ce4125;
+                color: white;
                 padding: 20px;
             }.card_heading {
                 color: #333645;
@@ -196,7 +217,179 @@
             }
         }
     }
+    // service card hover states
+    .services_card_bespoke:hover {
+        background-color: #67809f;
+        transform: translateY(-10px);
+        transition: transform 0.5s ease-in-out;
+
+        .fa-th {
+            color: #67809f;
+            background-color: white;
+        }
+
+        .card_heading {
+            color: white;
+        }
+
+        .bespoke_text {
+            color: white;
+        }
+
+        .read_btn {
+            color: #67809f;
+            background-color: white;
+        }
+    }
+
+    .services_card_it:hover {
+        background-color: #4183d7;
+        transform: translateY(-10px);
+        transition: transform 0.5s ease-in-out;
+
+        .fa-desktop {
+            color: #4183d7;
+            background-color: white;
+        }
+
+        .card_heading {
+            color: white;
+        }
+
+        .it_text {
+            color: white;
+        }
+
+        .read_btn {
+            color: #4183d7;
+            background-color: white;
+        }
+    }
+
+    .services_card_marketing:hover {
+        background-color: #2ecc71;
+        transform: translateY(-10px);
+        transition: transform 0.5s ease-in-out;
+
+        .fa-bar-chart {
+            color: #2ecc71;
+            background-color: white;
+        }
+
+        .card_heading {
+            color: white;
+        }
+
+        .marketing_text {
+            color: white;
+        }
+
+        .read_btn {
+            color: #2ecc71;
+            background-color: white;
+        }
+    }
+
+    .services_card_tele:hover {
+        background-color: #d64541;
+        transform: translateY(-10px);
+        transition: transform 0.5s ease-in-out;
+
+        .fa-phone {
+            color: #d64541;
+            background-color: white;
+        }
+
+        .card_heading {
+            color: white;
+        }
+
+        .tele_text {
+            color: white;
+        }
+
+        .read_btn {
+            color: #d64541;
+            background-color: white;
+        }
+    }
+
+    .services_card_web:hover {
+        background-color: #926fb1;
+        transform: translateY(-10px);
+        transition: transform 0.5s ease-in-out;
+
+        .fa-code {
+            color: #926fb1;
+            background-color: white;
+        }
+
+        .card_heading {
+            color: white;
+        }
+
+        .web_text {
+            color: white;
+        }
+
+        .read_btn {
+            color: #926fb1;
+            background-color: white;
+        }
+    }
+
+    .services_card_cyber:hover {
+        background-color: #f62459;
+        transform: translateY(-10px);
+        transition: transform 0.5s ease-in-out;
+
+        .fa-shield {
+            color: #f62459;
+            background-color: white;
+        }
+
+        .card_heading {
+            color: white;
+        }
+
+        .cyber_text {
+            color: white;
+        }
+
+        .read_btn {
+            color: #f62459;
+            background-color: white;
+        }
+    }
+
+    .services_card_dev:hover {
+        background-color: #ce4125;
+        transform: translateY(-10px);
+        transition: transform 0.5s ease-in-out;
+
+        .fa-graduation-cap {
+            color: #ce4125;
+            background-color: white;
+        }
+
+        .card_heading {
+            color: white;
+        }
+
+        .dev_text {
+            color: white;
+        }
+
+        .read_btn {
+            color: #ce4125;
+            background-color: white;
+        }
+    }
+
 }
+
+
+
 
 // Media Queries
 
