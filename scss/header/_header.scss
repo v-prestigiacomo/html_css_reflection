@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: white;
+    background-color: #333645;
 
     img {
         width: 201px;
@@ -47,14 +47,14 @@
         justify-content: center;     
     } 
 
-    .nav_container {
+    ul {
         display: none;
     }
 }
 
 
 // Header Media Queries
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1067px) {
     .header_container {
         img {
             width: 402px;
@@ -90,115 +90,261 @@
             background-color: #4183d7;
         }
 
-        .fa-phone {
+        #phone {
             display: none;
         }
 // Nav bar
-        .nav_container {
-            display: flex;
-            background-color: #333645;
-            height: 100px;
-            width: 100%;
-            justify-content: center;
-            .nav {
-                display: grid;
-                grid-template-rows: 1fr;
-                grid-template-columns: repeat(7, 1fr);
-                width: auto;
-                
-                a {
-                    display: inline;
-                    text-decoration: none;
-                    text-align: center;
-                    padding: 10px 10px;
-                    margin: 0px;
-                    width: 110px;
-                    > div {
-                        > p {
-                            color: white;
-                            margin: 5px auto;
-                        }
-                        .small_txt {
-                            font-size: 70%;
-                        }
-    
-                        .fa-th {
-                            padding: 5px;
-                            color: #67809f;
-                        }
-    
-                        .fa-desktop {
-                            padding: 5px;
-                            color: #4183d7;
-                        }
-    
-                        .fa-bar-chart {
-                            padding: 5px;
-                            color: #2ecc71;
-                        }
-    
-                        .fa-phone {
-                            padding: 5px;
-                            color: #d64541;
-                        }
-    
-                        .fa-code {
-                            padding: 5px;
-                            color: #926fb1;
-                        }
-    
-                        .fa-shield {
-                            padding: 5px;
-                            color: #f62459;
-                        }
-    
-                        .fa-graduation-cap {
-                            padding: 5px;
-                            color: #ce4125;
-                        }
-                    }
-                }
-                //Bespoke Dropdown
 
-                .bespoke_drop {
-                    display: none;
-                    background: #526781;
-                    position: absolute;
-                    width: 110px;
-                    top: 197px;
-                    border-radius: 0px 0px 6px 6px;
+            ul {
+                display: inline;
+                width: 150px;
+                margin: 0px 0px 0px 0px;
+                padding: 10px 0px 0px 0px;
+                text-align: center;
+                
+                // icon styles
+                .fa-th {
+                    display: block;
+                    color: #67809f;
+                }
+
+                .fa-desktop {
+                    display: block;
+                    color: #4183d7;
+                }
+
+                .fa-bar-chart {
+                    display: block;
+                    color: #2ecc71;
+                }
+
+                .fa-phone {
+                    display: block;
+                    color: #d64541;
+                    margin-right: 0px;
+                }
+
+                .fa-code {
+                    display: block;
+                    color: #926fb1;
+                }
+
+                .fa-shield {
+                    display: block;
+                    color: #f62459;
+                }
+
+                .fa-graduation-cap {
+                    display: block;
+                    color: #ce4125;
+                }
+        
+                small {
+                    display: block;
+                    color: white;
+                    margin-bottom: 0px;
+                    margin-top: 10px;
+                    font-size: 0.7rem;
+                }
+        
+                p {
+                    display: block;
+                    color: white;
+                    margin: 0px 5px;
+                }
+        
+                li {
+                    list-style: none;
+                    position: relative;
+                    padding-top: 10px;
+                    
                     a {
-                        display: block;
-                        text-decoration: none;
                         color: white;
-                        font-size: 0.8rem;
+                        text-decoration: none;
                     }
 
-                    a:hover {
-                        text-decoration: underline;
+                    ul {
+                        border-radius: 0px 0px 6px 6px;
+                        li {
+                            padding: 10px;
+
+                            a {
+                                font-size: 0.9rem;
+                            }
+                        }
                     }
                 }
 
-                
+                .software {
+                    height: 100px;
+                    margin-bottom: 0px;
+                }
 
-              
+                .it {
+                    height: 100px;
+                    margin-bottom: 0px;
+                }
 
+                .marketing {
+                    height: 100px;
+                    margin-bottom: 0px;
+                }
 
-                .bespoke_link:hover + .bespoke_drop {
+                .telecoms {
+                    height: 100px;
+                    margin-bottom: 0px;
+                }
+
+                .web {
+                    height: 100px;
+                    margin-bottom: 0px;
+                }
+
+                .cyber {
+                    height: 100px;
+                    margin-bottom: 0px;
+                }
+
+                .dev {
+                    height: 100px;
+                    margin-bottom: 0px;
+                }
+
+                // software dropdown
+                .nav_dropdown_software {
+                    display: none;
+                    position: absolute;
+                    background-color: #526781;
+                    top: 100%;
+                }
+
+                li:hover .nav_dropdown_software {
                     display: block;
                 }
 
-                .bespoke_drop:hover {
-                    display: block;
-                }
-
-                .bespoke_container:hover  .bespoke_link {
+                .software:hover {
                     background-color: #67809f;
+                    a {
+                        .fa-th {
+                            color: white;
+                        }
+                    }
                 }
 
+                //IT dropdown
+                .nav_dropdown_it {
+                    display: none;
+                    position: absolute;
+                    background-color: #286abd;
+                    top: 100%;
+                }
 
+                li:hover .nav_dropdown_it {
+                    display: block;
+                }
 
-            }
+                .it:hover {
+                    background-color: #4183d7;
+                    .fa-desktop {
+                        color: white;
+                    }
+                }
+                
+                //marketing dropdown
+                .nav_dropdown_marketing {
+                    display: none;
+                    position: absolute;
+                    background-color: #25a25a;
+                    top: 100%;
+                }
+
+                li:hover .nav_dropdown_marketing {
+                    display: block;
+                }
+
+                .marketing:hover {
+                    background-color: #2ecc71;
+                    .fa-bar-chart {
+                        color: white;
+                    }
+                }
+
+                //telecoms dropdown
+                .nav_dropdown_telecoms {
+                    display: none;
+                    position: absolute;
+                    background-color: #bc2c28;
+                    top: 100%;
+                }
+
+                li:hover .nav_dropdown_telecoms {
+                    display: block;
+                }
+
+                .telecoms:hover {
+                    background-color: #d64541;
+                    .fa-phone {
+                        color: white;
+                    }
+                }
+
+                //web dropdown
+                .nav_dropdown_web {
+                    display: none;
+                    position: absolute;
+                    background-color: #79539a;
+                    top: 100%;
+                }
+
+                li:hover .nav_dropdown_web {
+                    display: block;
+                }
+
+                .web:hover {
+                    background-color: #926fb1;
+                    .fa-code {
+                        color: white;
+                    }
+                }
+
+                //cyber dropdown
+                .nav_dropdown_cyber {
+                    display: none;
+                    position: absolute;
+                    background-color: #de093f;
+                    top: 100%;
+                }
+
+                li:hover .nav_dropdown_cyber {
+                    display: block;
+                }
+
+                .cyber:hover {
+                    background-color: #f62459;
+                    .fa-shield {
+                        color: white;
+                    }
+                }
+
+                //dev dropdown
+                .nav_dropdown_dev {
+                    display: none;
+                    position: absolute;
+                    background-color: #a3331d;
+                    top: 100%;
+                }
+
+                li:hover .nav_dropdown_dev {
+                    display: block;
+                }
+
+                .dev:hover {
+                    background-color: #ce4125;
+                    .fa-graduation-cap {
+                        color: white;
+                    }
+                }
+
+               }
         }
     } 
-}

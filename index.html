@@ -22,7 +22,7 @@
                     <i class="fa-solid fa-paper-plane fa-2x"></i>
                     <h2>Contact</h2>
                 </div>
-                <i class="fa fa-phone" style="font-size:48px"></i>
+                <i id="phone" class="fa fa-phone" style="font-size:48px"></i>
                 <i class="fa fa-bars fa-inverse fa-border fa-3x"></i>
                 <div class="form1">
                     <form>
@@ -33,77 +33,124 @@
                     </form>
                 </div>
             <!---Navigation Section-->
-                <div class="nav_container">
-                    <div class="nav">
-                            <a class="bespoke_link" href="#">
-                                <div class="nav_bespoke">
-                                    <i class="fas fa-th icon" aria-hidden="true"></i>
-                                    <p class="small_txt">BESPOKE</p>
-                                    <p class="large_txt">SOFTWARE</p>
-                                </div>
-                            </a>                                             
-                            <div class="bespoke_drop">
-                                <a href="#">Workflow</a>
-                                <a href="#">Automation</a>
-                                <a href="#">Integration</a>
-                                <a href="#">Apps</a>
-                                <a href="#">Database</a>
-                                <a href="#">SharePoint</a>
-                                <a href="#">Management</a>
-                                <a href="#">Business Central</a>
-                            </div>
-                        <a class="it_link" href="#">
-                            <div class="nav_it">
-                                <i class="fas fa-desktop icon" aria-hidden="true"></i>
-                                <p class="small_txt">IT</p>
-                                <p class="large_txt">SUPPORT</p>
-                            </div>
-                        </a>
-                        <!--<div class="it_drop">
-                            <a href="#">Managed IT</a>
-                            <a href="#">Business IT</a>
-                            <a href="#">Office 365</a>
-                            <a href="#">Consultancy</a>
-                            <a href="#">Cloud Provider</a>
-                            <a href="#">Data Backup</a>
-                        </div> <--->
+                <ul>
+                    <li class="software">
                         <a href="#">
-                            <div class="nav_digital">
-                                <i class="fas fa-bar-chart icon" aria-hidden="true"></i>
-                                <p class="small_txt">DIGITAL</p>
-                                <p class="large_txt">MARKETING</p>
-                            </div>
+                            <i class="fas fa-th bespoke_icon" aria-hidden="true"></i>
+                            <small>BESPOKE</small>
+                                SOFTWARE
                         </a>
+                        <ul class="nav_dropdown_software">
+                            <li><a href="#"> Workflow </a></li>
+                            <li><a href="#"> Automation </a></li>
+                            <li><a href="#"> Integration </a></li>
+                            <li><a href="#"> Database </a></li>
+                            <li><a href="#"> SharePoint </a></li>
+                            <li><a href="#"> Management </a></li>
+                            <li><a href="#"> Business Control </a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="it">
                         <a href="#">
-                            <div class="nav_telecoms">
-                                <i class="fa fa-phone" aria-hidden="true"></i>
-                                <p class="small_txt">TELECOMS</p>
-                                <p class="large_txt">SOLUTIONS</p>
-                            </div>
+                            <i class="fa-solid fa-desktop it_icon"></i>
+                            <small>IT</small>
+                            <p>SUPPORT</p>
                         </a>
+                        <ul class="nav_dropdown_it">
+                            <li><a href="#"> Managed IT </a></li>
+                            <li><a href="#"> Business IT </a></li>
+                            <li><a href="#"> Office 365 </a></li>
+                            <li><a href="#"> Consultancy </a></li>
+                            <li><a href="#"> Cloud Provider </a></li>
+                            <li><a href="#"> Data Backup </a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="marketing">
                         <a href="#">
-                            <div class="nav_web">
-                                <i class="fas fa-code web_icon" aria-hidden="true"></i>
-                                <p class="small_txt">WEB</p>
-                                <p class="large_txt">DESIGN</p>
-                            </div>
+                            <i class="fa-solid fa fa-bar-chart marketing_icon"></i>
+                            <small>DIGITAL</small>
+                            <p>MARKETING</p>
                         </a>
+                        <ul class="nav_dropdown_marketing">
+                            <li><a href="#"> Search (SEO) </a></li>
+                            <li><a href="#"> Paid (PPC) </a></li>
+                            <li><a href="#"> Conversion (CRO) </a></li>
+                            <li><a href="#"> Email </a></li>
+                            <li><a href="#"> Social Media </a></li>
+                            <li><a href="#"> Content </a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="telecoms">
                         <a href="#">
-                            <div class="nav_cyber">
-                                <i class="fa fa-shield" aria-hidden="true"></i>
-                                <p class="small_txt">CYBER</p>
-                                <p class="large_txt">SECURITY</p>
-                            </div>
+                            <i class="fa-solid fa-phone"></i>
+                            <small>TELECOMS</small>
+                            <p>SERVICES</p>
                         </a>
+                        <ul class="nav_dropdown_telecoms">
+                            <li><a href="#"> Business Mobile </a></li>
+                            <li><a href="#"> Hosted VoIP </a></li>
+                            <li><a href="#"> Business VoIP </a></li>
+                            <li><a href="#"> Business Broadband </a></li>
+                            <li><a href="#"> Leased Line </a></li>
+                            <li><a href="#"> 3CX Systems </a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="web">
                         <a href="#">
-                            <div class="nav_developer">
-                                <i class="fa-solid fa-graduation-cap"></i>
-                                <p class="small_txt">DEVELOPER</p>
-                                <p class="large_txt">TRAINING</p>
-                            </div>
+                            <i class="fas fa-code web_icon" aria-hidden="true"></i>
+                            <small>WEB</small>
+                            <p>DESIGN</p>
                         </a>
-                    </div>
-                </div>
+                        <ul class="nav_dropdown_web">
+                            <li><a href="#"> Stylish Websites </a></li>
+                            <li><a href="#"> eCommerce Stores </a></li>
+                            <li><a href="#"> Branding </a></li>
+                            <li><a href="#"> Apps </a></li>
+                            <li><a href="#"> Web Hosting </a></li>
+                            <li><a href="#"> Pay Monthly Websites </a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="cyber">
+                        <a href="#">
+                            <i class="fa fa-shield cyber_icon" aria-hidden="true"></i>
+                            <small>CYBER</small>
+                            <p>SECURITY</p>
+                        </a>
+                        <ul class="nav_dropdown_cyber">
+                            <li><a href="#"> Assessment </a></li>
+                            <li><a href="#"> Management </a></li>
+                            <li><a href="#"> Penetration Testing </a></li>
+                            <li><a href="#"> Cyber Essentials </a></li>
+                            <li><a href="#"> PSI/DSS </a></li>
+                            <li><a href="#"> Hacker Prevention </a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="dev">
+                        <a href="#">
+                            <i class="fa-solid fa-graduation-cap dev_icon"></i>
+                            <small>DEVELOPER</small>
+                            <p>TRAINING</p>
+                        </a>
+                        <ul class="nav_dropdown_dev">
+                            <li><a href="#"> Train For A Career In Tech </a></li>
+                            <li><a href="#"> Skills Bootcamp </a></li>
+                            <li><a href="#"> Scion Scheme Frequently Asked Questions </a></li>
+                            <li><a href="#"> Scion Collaborators </a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
             <!---Banner Section-->
             <div class="banner_container">
