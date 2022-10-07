@@ -9,12 +9,13 @@
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.836), rgba(0, 0, 0, 0)), url("/img/home-oaVs.webp");
     background-size: cover;
     .banner_txt {
-        max-width: 800px;
-        padding: 30px 20px;
+        max-width: 70%;
+        padding: 50px 20px;
         h1 {
-            font-size: 250%;
+            font-size: 2.3rem;
             color: white;
             text-align: center;
+            margin-top: 0px;
         }
 
         p {
@@ -29,7 +30,22 @@
     .banner_container {
         .banner_txt {
             h1 {
-                font-size: 300%;
+                font-size: 3rem;
+                text-align: left;
+            }
+            p {
+                font-size: 150%;
+                text-align: left;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .banner_container {
+        .banner_txt {
+            h1 {
+                font-size: 4rem;
                 text-align: left;
             }
             p {

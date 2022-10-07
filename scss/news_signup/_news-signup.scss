@@ -38,6 +38,7 @@
                 .marketing_text {
                     display: inline;
                     color: #333645;
+                    padding-left: 30px;
                     a {
                         color: #333645;
                     }
@@ -62,14 +63,6 @@
                     outline-offset: -2px;
                     accent-color: #333645;
                     border-radius: 20%;
-                }
-                input[type=submit] {
-                    background-color: #333645;
-                    color: white;
-                    padding: 15px 18px;
-                    border-radius: 6px;
-                    margin: 20px 0px;
-                    border-style: none;
                 }
             }
         }

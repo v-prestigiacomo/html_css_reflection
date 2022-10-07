@@ -1,7 +1,7 @@
 // Partners Section
 
 .partner_container {
-    display: block;
+    display: none;
     .partner_images {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -18,5 +18,14 @@
         img:hover {
             filter: saturate(100%);
         }
+    }
+}
+
+// Media Queries
+
+@media screen and (min-width: 768px) {
+    
+    .partner_container {
+        display: block;
     }
 }
