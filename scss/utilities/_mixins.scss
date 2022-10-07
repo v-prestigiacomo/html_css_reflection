@@ -4,14 +4,12 @@
 
 @mixin service_card {
     display: grid;
-    width: 90%;
-    max-width: 450px;
-    grid-template-columns: 1fr;
     justify-items: center;
     background-color: white;
     border: 1px solid rgba(#000000, 0.3);
     border-radius: 5%;
-    margin: 20px 30px 20px 30px;
+    margin: 20px;
     padding: 30px;
     box-shadow: 0 3px 35px rgba(#000, 0.1);
+    transition: transform 0.5s ease-in-out, background-color 0.5s, color 0.5s;
 }

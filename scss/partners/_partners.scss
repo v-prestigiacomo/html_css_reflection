@@ -6,12 +6,13 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         justify-content: center;
-        margin: 20px 15%;
+        margin: 40px 15%;
         img {
             display: block;
             margin-left: auto;
             margin-right: auto;
             filter: saturate(0);
+            object-fit: contain;
 
         }
 
@@ -23,9 +24,10 @@
 
 // Media Queries
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 888px) {
     
     .partner_container {
         display: block;
+
     }
 }

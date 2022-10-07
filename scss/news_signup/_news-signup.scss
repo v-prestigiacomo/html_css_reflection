@@ -5,7 +5,7 @@
     padding-top: 20px;
     .form_container {
         display: block;
-        margin: auto 10%;
+        margin: auto 15%;
         #newsletter_form {
             display: block;
             fieldset {
@@ -20,12 +20,13 @@
                     grid-template-columns: 1fr;
                     .name_container {
                         #name_field {
-                            width: 80%;
+                            width: 100%;
                         }
                     }
                     .email_container {
+                        
                         #email_field {
-                            width: 80%;
+                            width: 100%;
                         }
                     }
                 }
@@ -35,14 +36,7 @@
                 #marketing_box {
                     display: inline;
                 }
-                .marketing_text {
-                    display: inline;
-                    color: #333645;
-                    padding-left: 30px;
-                    a {
-                        color: #333645;
-                    }
-                }
+                
                 input[type=text] {
                     border: none;
                     margin: 5px 20px 20px 0px;
@@ -54,15 +48,44 @@
                     outline: none;
                     box-shadow: 0 0 10px #9ecaed;
                 }
-                input[type=checkbox] {
-                    width: 32px;
-                    height: 32px;
-                    margin-right: 10px;
+
+                .marketing_container {
+                    display: flex;
+                    input[type=checkbox] {
+                        display: inline-block;
+                        width: 32px;
+                        height: 32px;
+                        margin-right: 10px;
+                        background-color: #333645;
+                        outline: solid 3px #333645;
+                        outline-offset: -2px;
+                        accent-color: #333645;
+                        border-radius: 20%;
+                        flex-shrink: 0;
+                    }
+
+                    .marketing_text {
+                        display: inline-block;
+                        color: #333645;
+                        a {
+                            color: #333645;
+                        }
+                    }
+                }
+                
+
+                input[type=submit] {
+                    margin: 15px 15px 15px 0px;
                     background-color: #333645;
-                    outline: solid 3px #333645;
-                    outline-offset: -2px;
-                    accent-color: #333645;
-                    border-radius: 20%;
+                    color: white;
+                    font-size: 1.15rem;
+                    padding: 15px 15px;
+                    border-radius: 3px;
+                    border-style: none;
+                }
+
+                input[type=submit]:hover {
+                    background-color: #1d1f29;
                 }
             }
         }
@@ -77,6 +100,21 @@
                 fieldset {
                     .input_container {
                         grid-template-columns: 1fr 1fr;
+                        justify-content: space-between;
+
+                        .name_container {
+                            display: inline;
+                            #name_field {
+                                width: 80%;
+                            }
+                        }
+                        .email_container {
+                    
+                            #email_field {
+                                display: inline;
+                                width: 80%;
+                            }
+                        }
                     }
                 }
             }
