@@ -4,7 +4,7 @@
     background-color: #333645;
     display: grid;
     grid-template-columns: 1fr;
-    padding: 40px 15%;
+    padding: 40px 2%;
     .txt_group_1 {
         display: inline-block;
         margin: 20px;
@@ -124,6 +124,8 @@
 
 @media screen and (min-width: 1000px) {
     .txt_section_container {
+        padding-left: 15%;
+        padding-right: 15%;
         grid-template-columns:repeat(2, minmax(40%, 1fr));
     } 
         .txt_group_1 {

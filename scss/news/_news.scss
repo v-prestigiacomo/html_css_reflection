@@ -2,7 +2,7 @@
 
 .news_container {
     display: grid;
-    padding: 40px 15%;
+    padding: 40px 2%;
     .headings {
         display: flex;
         justify-content: space-between;
@@ -351,6 +351,7 @@
 
 @media screen and (min-width: 1163px) {
     .news_container {
+        padding: 0px 15%;
         .headings {
             a {
                 display: inline;
