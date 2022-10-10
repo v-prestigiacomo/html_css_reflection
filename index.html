@@ -15,33 +15,37 @@
             
                 <div class="header_section_1">
                     <div class="header_top">
-                        <img src="img/f-logo.png" href="#">
-                        <div class="btn_support">
-                            <a href="#" class="support_link">
+                        <a href="#" class="logo_container">
+                            <img src="img/f-logo.png" href="#">
+                        </a>
+                        <a href="#" class="support_link">
+                            <div class="btn_support">
                                 <i class="fas fa-mouse fa-2x"></i>
                                 <span>SUPPORT</span>
-                            </a>
-                        </div>
+                            </div>
+                        </a>
+                        <a href="#" class="contact_link">
                         <div class="btn_contact">
-                            <a href="#" class="contact_link">
                                 <i class="fa-solid fa-paper-plane fa-2x"></i>
                                 <span>CONTACT</span>
-                            </a>
-                        </div>
+                            </div>
+                        </a>
                         <i id="phone" class="fa fa-phone" style="font-size:36px"></i>
                         <div class="form1">
                             <form class="form_top">
-                                <input type="text" placeholder="Search..." id="search_field" name="search"> 
+                                <input type="text" placeholder="Search..." id="search_field1" name="search"> 
                                 <button type="submit" id="search_submit1" name="submit">
                                     <i class="fa fa-search fa-2x" aria-hidden="true"></i>
                                 </button>
                             </form>
                         </div>
+                        <a href="#" class="hamburger_link">
                         <i class="fa fa-bars fa-inverse fa-border fa-3x"></i>
+                        </a>
                     </div>
                     <div class="header_bottom">
                         <form class="form_bottom">
-                            <input type="text" placeholder="Search..." id="search_field" name="search"> 
+                            <input type="text" placeholder="Search..." id="search_field2" name="search"> 
                             <button type="submit" id="search_submit2" name="submit">
                                 <i class="fa fa-search fa-2x" aria-hidden="true"></i>
                             </button>
@@ -180,10 +184,13 @@
             <!---Services Section-->
             <div class="services_container">
                 <div class="services_heading">
+                    
                     <h1>Our Services</h1>
                     <div class="view_services">
-                        <h2>View All</h2>
-                        <i class="fa-solid fa-2x fa-arrow-right"></i>
+                        <a href="#" class="view_link1">
+                            <h2>View All</h2>
+                            <i class="fa-solid fa-2x fa-arrow-right"></i>
+                        </a>
                     </div>
                 </div>
                 <div class="services_card_container">
@@ -299,8 +306,10 @@
                     </a>
                 </div>
                 <div class="view_services_bottom">
-                    <h2>View All</h2>
-                    <i class="fa-solid fa-2x fa-arrow-right"></i>
+                    <a href="#" class="view_link2">
+                        <h2>View All</h2>
+                        <i class="fa-solid fa-2x fa-arrow-right"></i>
+                    </a>
                 </div>
             </div>
 
@@ -321,7 +330,11 @@
                     We pride ourselves on being an ethical business and have
                     a unique business offering and cost model that ensures you 
                     get the most from our relationship in an upfront manner.</p>
-                    <div class="read_btn">READ MORE</div>
+                    <a href="#" class="read_btn_link">
+                        <div class="read_btn">
+                            READ MORE
+                        </div>
+                    </a>
                 </div>
                 <div class="txt_group_2">
                     <h2>What Our Clients Think</h2>
@@ -357,7 +370,7 @@
                 <div class="headings">
                     <h1>Latest News</h1>
                     <h1>
-                        <a href="#">
+                        <a href="#" class="view_top">
                             View All
                             <i class="fa-solid fa-arrow-right"></i>
                         </a>
@@ -459,7 +472,7 @@
                                 <span class="name_container">
                                     <label for="name">
                                         <span class="name_label">
-                                            Your name *
+                                            Your name<span class="asterisk"> *</span>
                                         </span>
                                         <br>
                                         <input type="text" id="name_field" name="name">
@@ -468,7 +481,7 @@
                                 <span class="email_container">
                                     <label for="email">
                                         <span class="email_label">
-                                            Your Email *
+                                            Your Email <span class="asterisk"> *</span>
                                         </span>
                                         <br>
                                         <input type="text" id="email_field" name="email">
@@ -485,7 +498,9 @@
                                 </label>
                             </div>
                             <br>
-                            <input type="submit" name="submit" value="SUBSCRIBE">
+                            <a href="#" class="subscribe_link">
+                                <input type="submit" name="submit" value="SUBSCRIBE" id="submit_btn">
+                            </a>
                         </fieldset>
                     </form>
                 </div>
@@ -523,7 +538,7 @@
                     <p>Cambridge,</p>
                     <p>CB4 0WS</p>
                     <br>
-                    <p>Tel: 01223 37 57 72</p>
+                    <span>Tel: </span><a class="tel" href="01223375772">01223 37 57 72</a>
                 </div>
                 <div class="footer wymondham">
                     <h3>WYMONDHAM OFFICE</h3>
@@ -533,7 +548,7 @@
                     <p>Wymondham, Norfolk,</p>
                     <p>NR18 0WZ</p>
                     <br>
-                    <p>Tel: 01603 70 40 20</p>
+                    <span>Tel: </span><a class="tel" href="01603704020"> 01603 70 40 20</a>
                 </div>
                 <div class="footer yarmouth">
                     <h3>GREAT YARMOUTH OFFICE</h3>
@@ -543,7 +558,7 @@
                     <p>Great Yarmouth, Norfolk,</p>
                     <p>NR31 7RA</p>
                     <br>
-                    <p>Tel: 01493 60 32 04</p>
+                    <span>Tel: </span><a class="tel" href="01493603204">01493 60 32 04</a>
                 </div>
             </div>
             <div class="bottom">

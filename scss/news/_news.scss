@@ -15,6 +15,12 @@
         }   
     }
 
+    .view_top {
+        a {
+            text-decoration: none;
+        }
+    }
+
     .view_bottom {
         text-align: center;
         a {
@@ -337,6 +343,13 @@
 // Hover States
 
 .news_container {
+
+    .view_top {
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+
     .view_bottom {
         a:hover {
             text-decoration: underline;

@@ -27,14 +27,20 @@
                 vertical-align: middle;
                 color: #333645;
             }
+
+            .view_link1:hover {
+                h2 {
+                    text-decoration: underline;
+                }
+            }
         }
+
     }
     
     .view_services_bottom {
         display: block;
         padding: auto;
         margin: auto;
-        vertical-align: middle;
         text-align: center;
         h2 {
             display: inline-block;
@@ -47,6 +53,16 @@
             display: inline;
             vertical-align: middle;
             color: #333645;
+        }
+
+        .view_link {
+            text-decoration: none;
+        }
+
+        .view_link2:hover {
+            h2 {
+                text-decoration: underline;
+            }
         }
     }
     

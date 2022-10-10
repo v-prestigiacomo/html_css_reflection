@@ -8,7 +8,7 @@
     .txt_group_1 {
         display: inline-block;
         margin: 20px;
-        width: 90%;
+        width: 96%;
         h2 {
             color: white;
         }
@@ -31,12 +31,16 @@
             color: white;
             border-radius: 6px;
         }
+
+        .read_btn_link:hover .read_btn {
+            background-color: #15161d;
+        }
     }
 
     .txt_group_2 {
         display: inline-block;
         margin: 20px;
-        width: 90%;
+        width: 96%;
         h2 {
             color: white;
         }
@@ -53,7 +57,7 @@
 
         .star {
             display: flex;
-            justify-content: center;
+            justify-content: left;
         }
 
         .quote {
@@ -88,6 +92,12 @@
                     white-space: nowrap;
                 }
             }
+
+            .greview_link:hover .greview {
+                background-color: #2f60af;
+            }
+
+           
             
             .treview_link {
                 text-decoration: none;
@@ -103,6 +113,11 @@
                     white-space: nowrap;
                 }
             }
+            
+            .treview_link:hover .treview {
+                background-color: #00724e;
+            }
+           
             
         }
     }
