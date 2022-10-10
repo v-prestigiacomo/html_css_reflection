@@ -31,9 +31,10 @@ body {
   display: flex;
   justify-content: center;
   padding: 0px 15%;
+  height: 120px;
 }
 
-/* line 16, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+/* line 17, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
 .header_section_1 img {
   width: 201px;
   height: 35px;
@@ -42,103 +43,122 @@ body {
   margin-right: 15px;
 }
 
-/* line 24, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+/* line 25, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
 .header_section_1 .btn_support {
   display: none;
 }
 
-/* line 29, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+/* line 30, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
 .header_section_1 .btn_contact {
   display: none;
 }
 
-/* line 34, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+/* line 35, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
 .header_section_1 .fa-bars {
+  display: inline-block;
   background-color: #333645;
-  margin-right: 15px;
+  margin: auto auto auto 0px;
 }
 
-/* line 39, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+/* line 41, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
 .header_section_1 .fa-phone {
   margin-top: auto;
   margin-bottom: auto;
   margin-right: 15px;
 }
 
-/* line 45, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+/* line 47, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
 .header_section_1 .form1 {
   display: flex;
   width: 100%;
 }
 
-/* line 50, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+/* line 52, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
 .header_section_1 form {
   display: flex;
   margin: auto 15px auto 15px;
   width: 100%;
 }
 
-/* line 55, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+/* line 57, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+.header_section_1 form input[type=text] {
+  display: inline-block;
+  height: 50px;
+  width: 240px;
+  font-size: 1.2rem;
+  padding-left: 20px;
+}
+
+/* line 65, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
 .header_section_1 form input[type=submit] {
-  background-color: #333645;
-  color: white;
-  padding: 15px 18px;
-  border-radius: 6px;
+  padding: 15px 15px;
   margin: 20px 0px;
   border-style: none;
 }
 
+/* line 73, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+.header_section_1 form #search_submit {
+  width: 50px;
+  border-radius: 0px 3px 3px 0px;
+  color: white;
+  background-color: #999aa2;
+  border-style: none;
+}
+
 @media screen and (min-width: 1067px) {
-  /* line 71, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 88, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_section_1 img {
     width: 402px;
     height: 70px;
   }
-  /* line 76, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 93, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_section_1 .btn_contact, .header_section_1 .btn_support {
     display: inline;
     width: 200px;
-    height: 70px;
-    margin: 10px 15px;
-    padding: 15px 15px;
+    height: 50px;
+    margin: auto 15px;
+    padding: 10px 15px;
     border-radius: 5%;
     font-size: small;
     text-align: center;
     white-space: nowrap;
   }
-  /* line 87, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 104, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_section_1 .btn_contact a, .header_section_1 .btn_support a {
     text-decoration: none;
     color: white;
   }
-  /* line 92, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 109, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_section_1 .btn_contact .fa-paper-plane, .header_section_1 .btn_support .fa-paper-plane {
     display: inline;
     margin-right: 5px;
+    vertical-align: middle;
   }
-  /* line 97, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 115, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_section_1 .btn_contact .fa-mouse, .header_section_1 .btn_support .fa-mouse {
     display: inline;
     margin-right: 5px;
+    vertical-align: middle;
   }
-  /* line 102, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 121, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_section_1 .btn_contact span, .header_section_1 .btn_support span {
     display: inline;
     margin: auto;
+    font-size: 1.1rem;
   }
-  /* line 108, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 128, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_section_1 .btn_contact {
     background-color: #999aa2;
   }
-  /* line 112, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 132, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_section_1 .btn_support {
     background-color: #4183d7;
   }
-  /* line 116, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 136, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_section_1 #phone {
     display: none;
   }
-  /* line 122, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 142, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul {
     display: inline;
     width: 150px;
@@ -146,43 +166,43 @@ body {
     padding: 0px 0px 0px 0px;
     text-align: center;
   }
-  /* line 130, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 150, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul .fa-th {
     display: block;
     color: #67809f;
   }
-  /* line 135, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 155, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul .fa-desktop {
     display: block;
     color: #4183d7;
   }
-  /* line 140, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 160, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul .fa-bar-chart {
     display: block;
     color: #2ecc71;
   }
-  /* line 145, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 165, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul .fa-phone {
     display: block;
     color: #d64541;
     margin-right: 0px;
   }
-  /* line 151, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 171, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul .fa-code {
     display: block;
     color: #926fb1;
   }
-  /* line 156, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 176, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul .fa-shield {
     display: block;
     color: #f62459;
   }
-  /* line 161, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 181, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul .fa-graduation-cap {
     display: block;
     color: #ce4125;
   }
-  /* line 166, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 186, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul small {
     display: block;
     color: white;
@@ -190,214 +210,214 @@ body {
     margin-top: 10px;
     font-size: 0.7rem;
   }
-  /* line 174, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 194, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul p {
     display: block;
     color: white;
     margin: 0px 5px;
   }
-  /* line 180, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 200, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul li {
     list-style: none;
     position: relative;
     padding-top: 10px;
   }
-  /* line 185, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 205, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul li a {
     color: white;
     text-decoration: none;
   }
-  /* line 190, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 210, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul li ul {
     border-radius: 0px 0px 6px 6px;
   }
-  /* line 192, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 212, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul li ul li {
     padding: 10px;
   }
-  /* line 195, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 215, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul li ul li a {
     font-size: 0.9rem;
   }
-  /* line 202, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 222, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul .software {
     height: 100px;
     padding-top: 15px;
     margin-top: 0px;
     margin-bottom: 0px;
   }
-  /* line 209, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 229, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul .it {
     height: 100px;
     padding-top: 15px;
     margin-top: 0px;
     margin-bottom: 0px;
   }
-  /* line 216, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 236, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul .marketing {
     height: 100px;
     padding-top: 15px;
     margin-top: 0px;
     margin-bottom: 0px;
   }
-  /* line 223, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 243, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul .telecoms {
     height: 100px;
     padding-top: 15px;
     margin-top: 0px;
     margin-bottom: 0px;
   }
-  /* line 230, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 250, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul .web {
     height: 100px;
     padding-top: 15px;
     margin-top: 0px;
     margin-bottom: 0px;
   }
-  /* line 237, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 257, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul .cyber {
     height: 100px;
     padding-top: 15px;
     margin-top: 0px;
     margin-bottom: 0px;
   }
-  /* line 244, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 264, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul .dev {
     height: 100px;
     padding-top: 15px;
     margin-top: 0px;
     margin-bottom: 0px;
   }
-  /* line 252, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 272, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul .nav_dropdown_software {
     display: none;
     position: absolute;
     background-color: #526781;
     top: 100%;
   }
-  /* line 259, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 279, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul li:hover .nav_dropdown_software {
     display: block;
   }
-  /* line 263, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 283, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul .software:hover {
     background-color: #67809f;
   }
-  /* line 266, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 286, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul .software:hover a .fa-th {
     color: white;
   }
-  /* line 273, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 293, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul .nav_dropdown_it {
     display: none;
     position: absolute;
     background-color: #286abd;
     top: 100%;
   }
-  /* line 280, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 300, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul li:hover .nav_dropdown_it {
     display: block;
   }
-  /* line 284, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 304, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul .it:hover {
     background-color: #4183d7;
   }
-  /* line 286, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 306, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul .it:hover .fa-desktop {
     color: white;
   }
-  /* line 292, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 312, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul .nav_dropdown_marketing {
     display: none;
     position: absolute;
     background-color: #25a25a;
     top: 100%;
   }
-  /* line 299, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 319, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul li:hover .nav_dropdown_marketing {
     display: block;
   }
-  /* line 303, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 323, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul .marketing:hover {
     background-color: #2ecc71;
   }
-  /* line 305, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 325, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul .marketing:hover .fa-bar-chart {
     color: white;
   }
-  /* line 311, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 331, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul .nav_dropdown_telecoms {
     display: none;
     position: absolute;
     background-color: #bc2c28;
     top: 100%;
   }
-  /* line 318, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 338, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul li:hover .nav_dropdown_telecoms {
     display: block;
   }
-  /* line 322, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 342, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul .telecoms:hover {
     background-color: #d64541;
   }
-  /* line 324, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 344, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul .telecoms:hover .fa-phone {
     color: white;
   }
-  /* line 330, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 350, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul .nav_dropdown_web {
     display: none;
     position: absolute;
     background-color: #79539a;
     top: 100%;
   }
-  /* line 337, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 357, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul li:hover .nav_dropdown_web {
     display: block;
   }
-  /* line 341, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 361, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul .web:hover {
     background-color: #926fb1;
   }
-  /* line 343, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 363, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul .web:hover .fa-code {
     color: white;
   }
-  /* line 349, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 369, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul .nav_dropdown_cyber {
     display: none;
     position: absolute;
     background-color: #de093f;
     top: 100%;
   }
-  /* line 356, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 376, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul li:hover .nav_dropdown_cyber {
     display: block;
   }
-  /* line 360, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 380, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul .cyber:hover {
     background-color: #f62459;
   }
-  /* line 362, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 382, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul .cyber:hover .fa-shield {
     color: white;
   }
-  /* line 368, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 388, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul .nav_dropdown_dev {
     display: none;
     position: absolute;
     background-color: #a3331d;
     top: 100%;
   }
-  /* line 375, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 395, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul li:hover .nav_dropdown_dev {
     display: block;
   }
-  /* line 379, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 399, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul .dev:hover {
     background-color: #ce4125;
   }
-  /* line 381, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
+  /* line 401, ../../../netMatters/Reflections/html_css_reflection/scss/header/_header.scss */
   .header_container ul .dev:hover .fa-graduation-cap {
     color: white;
   }

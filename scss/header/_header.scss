@@ -13,6 +13,7 @@
         display: flex;
         justify-content: center;
         padding: 0px 15%;
+        height: 120px;
         img {
             width: 201px;
             height: 35px;
@@ -32,8 +33,9 @@
         }
     
         .fa-bars {
+            display: inline-block;
             background-color: #333645;
-            margin-right: 15px;
+            margin: auto auto auto 0px;
         }
     
         .fa-phone {
@@ -51,14 +53,29 @@
             display: flex;
             margin: auto 15px auto 15px;
             width: 100%;  
+
+            input[type=text] {
+                display: inline-block;
+                height: 50px;
+                width: 240px;
+                font-size: 1.2rem;
+                padding-left: 20px;
+            }
             
             input[type=submit] {
-                background-color: #333645;
-                color: white;
-                padding: 15px 18px;
-                border-radius: 6px;
+                
+                padding: 15px 15px;
+                
                 margin: 20px 0px;
                 border-style: none; 
+            }
+
+            #search_submit {
+                width: 50px;
+                border-radius: 0px 3px 3px 0px;
+                color: white;
+                background-color: #999aa2;
+                border-style: none;
             }
         } 
     }
@@ -76,9 +93,9 @@
         .btn_contact, .btn_support {
             display: inline;
             width: 200px;
-            height: 70px;
-            margin: 10px 15px;
-            padding: 15px 15px;
+            height: 50px;
+            margin: auto 15px;
+            padding: 10px 15px;
             border-radius: 5%;
             font-size: small;
             text-align: center;
@@ -92,16 +109,19 @@
             .fa-paper-plane {
                 display: inline;
                 margin-right: 5px;
+                vertical-align: middle;
             }
 
             .fa-mouse {
                 display: inline;
                 margin-right: 5px;
+                vertical-align: middle;
             }
 
             span {
                 display: inline;
                 margin: auto;
+                font-size: 1.1rem;
             }
         }
 
