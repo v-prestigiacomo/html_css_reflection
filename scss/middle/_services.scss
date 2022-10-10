@@ -2,11 +2,51 @@
 
 .services_container {
     .services_heading {
+        display: flex;
+        justify-content: space-between;
         padding-left: 20px;
         h1 {
             color: #333645;
             font-weight: 600;
             font-size: 2.25rem;
+        }
+
+        .view_services {
+            display: none;
+            padding: auto;
+            vertical-align: middle;
+            h2 {
+                display: inline-block;
+                vertical-align: middle;
+                color: #333645;
+                margin: 35px auto;
+                font-size: 1.6rem;
+            }
+            .fa-arrow-right {
+                display: inline-block;
+                vertical-align: middle;
+                color: #333645;
+            }
+        }
+    }
+    
+    .view_services_bottom {
+        display: block;
+        padding: auto;
+        margin: auto;
+        vertical-align: middle;
+        text-align: center;
+        h2 {
+            display: inline-block;
+            vertical-align: middle;
+            color: #333645;
+            margin: 35px auto;
+            font-size: 1.6rem;
+        }
+        .fa-arrow-right {
+            display: inline;
+            vertical-align: middle;
+            color: #333645;
         }
     }
     
@@ -16,6 +56,7 @@
         height: auto;
         grid-template-columns: 1fr;
         justify-items: center;
+
 
         a {
             text-decoration: none;
@@ -416,6 +457,17 @@
     .services_container {
         padding-left: 15%;
         padding-right: 15%;
+
+        .services_heading {
+            .view_services {
+                display: inline-block;
+            }
+        }
+
+        .view_services_bottom {
+            display: none;
+        }
+        
         .services_card_container {
             grid-template-columns: repeat(3, minmax(min-content, 1fr)) ;
 

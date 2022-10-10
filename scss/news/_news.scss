@@ -12,6 +12,14 @@
             display: none;
             text-decoration: none;
             color: #333645;
+        }   
+    }
+
+    .view_bottom {
+        text-align: center;
+        a {
+        text-decoration: none;
+        color: #333645;        
         }
     }
 
@@ -329,6 +337,12 @@
 // Hover States
 
 .news_container {
+    .view_bottom {
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+
     .article_cards {
         .article_1:hover {
             transform: translateY(-10px);
@@ -356,6 +370,10 @@
             a {
                 display: inline;
             }
+        }
+
+        .view_bottom {
+            display: none;
         }
             .article_cards {
                 grid-template-columns: 1fr 1fr;

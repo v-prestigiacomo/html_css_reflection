@@ -5,7 +5,7 @@
     padding-top: 20px;
     .form_container {
         display: block;
-        margin: auto 15%;
+        margin: auto 2%;
         #newsletter_form {
             display: block;
             fieldset {
@@ -96,6 +96,7 @@
 @media screen and (min-width: 992px) {
     .form_background {
         .form_container {
+            margin: auto 15%;
             #newsletter_form {
                 fieldset {
                     .input_container {
