@@ -12,7 +12,7 @@
             "cambridge wymondham"
             "yarmouth yarmouth";
         justify-content: center;
-        margin: auto 10%;
+        margin: auto 2%;
         
             .footer {
                 display: block;
@@ -84,7 +84,7 @@
     .bottom {
         display: flex;
         justify-content: space-between;
-        margin: auto 15%;
+        margin: auto 10%;
         color: white;
         font-weight: normal;
         font-size: 0.8rem;
@@ -94,6 +94,11 @@
         .license {
             display: inline-flex;
             flex-wrap: wrap;
+            width: 70%;
+
+            .rights_hidden {
+                display: none;
+            }
         }
 
         a {
@@ -149,7 +154,21 @@
             grid-template-areas: 
                 "about about about services services services"
                 "cambridge cambridge wymondham wymondham yarmouth yarmouth";
-                
+            margin: auto 10%;    
+
+            
+        }
+
+        .bottom {
+            .license {
+                    .rights_hidden {
+                        display: inline-block;
+                    }
+
+                    .rights_bottom {
+                        display: none;
+                    }
+            }
         }
     }
 }
