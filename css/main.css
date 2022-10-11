@@ -669,27 +669,28 @@ body {
   }
 }
 
-/* line 4, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 5, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_heading {
   display: flex;
   justify-content: space-between;
+  padding-left: 20px;
 }
 
-/* line 7, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 9, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_heading h1 {
   color: #333645;
   font-weight: 600;
   font-size: 2.25rem;
 }
 
-/* line 13, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 15, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_heading .view_services {
   display: none;
   padding: auto;
   vertical-align: middle;
 }
 
-/* line 17, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 19, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_heading .view_services h2 {
   display: inline-block;
   vertical-align: middle;
@@ -698,19 +699,19 @@ body {
   font-size: 1.6rem;
 }
 
-/* line 24, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 26, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_heading .view_services .fa-arrow-right {
   display: inline-block;
   vertical-align: middle;
   color: #333645;
 }
 
-/* line 31, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 33, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_heading .view_services .view_link1:hover h2 {
   text-decoration: underline;
 }
 
-/* line 39, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 41, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .view_services_bottom {
   display: block;
   padding: auto;
@@ -718,7 +719,7 @@ body {
   text-align: center;
 }
 
-/* line 44, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 46, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .view_services_bottom h2 {
   display: inline-block;
   vertical-align: middle;
@@ -727,24 +728,24 @@ body {
   font-size: 1.6rem;
 }
 
-/* line 51, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 53, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .view_services_bottom .fa-arrow-right {
   display: inline;
   vertical-align: middle;
   color: #333645;
 }
 
-/* line 57, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 59, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .view_services_bottom .view_link {
   text-decoration: none;
 }
 
-/* line 62, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 64, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .view_services_bottom .view_link2:hover h2 {
   text-decoration: underline;
 }
 
-/* line 68, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 70, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container {
   display: grid;
   width: 100%;
@@ -756,12 +757,12 @@ body {
   justify-items: center;
 }
 
-/* line 79, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 81, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container a {
   text-decoration: none;
 }
 
-/* line 83, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 85, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container .services_card_bespoke {
   display: grid;
   justify-items: center;
@@ -776,7 +777,7 @@ body {
   grid-template-columns: 1fr;
 }
 
-/* line 86, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 88, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container .services_card_bespoke .fa-th {
   border: 2px solid #67809f;
   border-radius: 50%;
@@ -785,7 +786,7 @@ body {
   padding: 20px;
 }
 
-/* line 93, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 95, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container .services_card_bespoke .card_heading {
   color: #333645;
   font-size: 0.9rem;
@@ -793,14 +794,14 @@ body {
   white-space: nowrap;
 }
 
-/* line 100, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 102, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container .services_card_bespoke .bespoke_text {
   display: block;
   text-align: center;
   color: #333645;
 }
 
-/* line 105, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 107, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container .services_card_bespoke .read_btn {
   padding: 15px;
   color: white;
@@ -808,7 +809,7 @@ body {
   border-radius: 3px;
 }
 
-/* line 116, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 118, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container .services_card_it {
   display: grid;
   justify-items: center;
@@ -823,7 +824,7 @@ body {
   grid-template-columns: minmax(200px, 1fr);
 }
 
-/* line 119, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 121, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container .services_card_it .fa-desktop {
   border: 2px solid #4183d7;
   border-radius: 50%;
@@ -832,7 +833,7 @@ body {
   padding: 20px;
 }
 
-/* line 125, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 127, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container .services_card_it .card_heading {
   color: #333645;
   font-size: 0.9rem;
@@ -840,13 +841,13 @@ body {
   white-space: nowrap;
 }
 
-/* line 132, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 134, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container .services_card_it .it_text {
   text-align: center;
   color: #333645;
 }
 
-/* line 136, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 138, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container .services_card_it .read_btn {
   padding: 15px;
   color: white;
@@ -854,7 +855,7 @@ body {
   border-radius: 3px;
 }
 
-/* line 144, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 146, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container .services_card_marketing {
   display: grid;
   justify-items: center;
@@ -869,7 +870,7 @@ body {
   grid-template-columns: minmax(200px, 1fr);
 }
 
-/* line 147, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 149, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container .services_card_marketing .fa-bar-chart {
   border: 2px solid #2ecc71;
   border-radius: 50%;
@@ -878,7 +879,7 @@ body {
   padding: 20px;
 }
 
-/* line 153, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 155, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container .services_card_marketing .card_heading {
   color: #333645;
   font-size: 0.9rem;
@@ -886,13 +887,13 @@ body {
   white-space: nowrap;
 }
 
-/* line 160, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 162, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container .services_card_marketing .marketing_text {
   text-align: center;
   color: #333645;
 }
 
-/* line 164, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 166, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container .services_card_marketing .read_btn {
   padding: 15px;
   color: white;
@@ -900,7 +901,7 @@ body {
   border-radius: 3px;
 }
 
-/* line 173, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 175, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container_row_2 {
   display: grid;
   width: 100%;
@@ -909,12 +910,12 @@ body {
   justify-items: center;
 }
 
-/* line 181, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 183, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container_row_2 a {
   text-decoration: none;
 }
 
-/* line 184, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 186, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container_row_2 .services_card_tele {
   display: grid;
   justify-items: center;
@@ -929,7 +930,7 @@ body {
   grid-template-columns: minmax(200px, 1fr);
 }
 
-/* line 187, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 189, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container_row_2 .services_card_tele .fa-phone {
   border: 2px solid #d64541;
   border-radius: 50%;
@@ -938,20 +939,20 @@ body {
   padding: 20px;
 }
 
-/* line 194, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 196, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container_row_2 .services_card_tele .card_heading {
   color: #333645;
   font-size: 0.9rem;
   white-space: nowrap;
 }
 
-/* line 200, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 202, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container_row_2 .services_card_tele .tele_text {
   text-align: center;
   color: #333645;
 }
 
-/* line 204, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 206, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container_row_2 .services_card_tele .read_btn {
   padding: 15px;
   color: white;
@@ -959,7 +960,7 @@ body {
   border-radius: 3px;
 }
 
-/* line 212, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 214, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container_row_2 .services_card_web {
   display: grid;
   justify-items: center;
@@ -974,7 +975,7 @@ body {
   grid-template-columns: minmax(200px, 1fr);
 }
 
-/* line 215, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 217, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container_row_2 .services_card_web .fa-code {
   border: 2px solid #926fb1;
   border-radius: 50%;
@@ -983,20 +984,20 @@ body {
   padding: 20px;
 }
 
-/* line 221, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 223, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container_row_2 .services_card_web .card_heading {
   color: #333645;
   font-size: 0.9rem;
   white-space: nowrap;
 }
 
-/* line 227, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 229, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container_row_2 .services_card_web .web_text {
   text-align: center;
   color: #333645;
 }
 
-/* line 231, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 233, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container_row_2 .services_card_web .read_btn {
   padding: 15px;
   color: white;
@@ -1004,7 +1005,7 @@ body {
   border-radius: 3px;
 }
 
-/* line 239, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 241, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container_row_2 .services_card_cyber {
   display: grid;
   justify-items: center;
@@ -1019,7 +1020,7 @@ body {
   grid-template-columns: minmax(200px, 1fr);
 }
 
-/* line 242, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 244, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container_row_2 .services_card_cyber .fa-shield {
   border: 2px solid #f62459;
   border-radius: 50%;
@@ -1028,20 +1029,20 @@ body {
   padding: 20px;
 }
 
-/* line 248, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 250, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container_row_2 .services_card_cyber .card_heading {
   color: #333645;
   font-size: 0.9rem;
   white-space: nowrap;
 }
 
-/* line 254, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 256, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container_row_2 .services_card_cyber .cyber_text {
   text-align: center;
   color: #333645;
 }
 
-/* line 258, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 260, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container_row_2 .services_card_cyber .read_btn {
   padding: 15px;
   color: white;
@@ -1049,7 +1050,7 @@ body {
   border-radius: 3px;
 }
 
-/* line 266, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 268, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container_row_2 .services_card_dev {
   display: grid;
   justify-items: center;
@@ -1064,7 +1065,7 @@ body {
   grid-template-columns: minmax(200px, 1fr);
 }
 
-/* line 269, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 271, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container_row_2 .services_card_dev .fa-graduation-cap {
   border: 2px solid #ce4125;
   border-radius: 50%;
@@ -1073,20 +1074,20 @@ body {
   padding: 20px;
 }
 
-/* line 275, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 277, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container_row_2 .services_card_dev .card_heading {
   color: #333645;
   font-size: 0.9rem;
   white-space: nowrap;
 }
 
-/* line 281, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 283, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container_row_2 .services_card_dev .dev_text {
   text-align: center;
   color: #333645;
 }
 
-/* line 285, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 287, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container_row_2 .services_card_dev .read_btn {
   padding: 15px;
   color: white;
@@ -1094,250 +1095,250 @@ body {
   border-radius: 3px;
 }
 
-/* line 294, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 296, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_bespoke:hover {
   background-color: #67809f;
   transform: translateY(-10px);
 }
 
-/* line 299, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 301, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_bespoke:hover .fa-th {
   color: #67809f;
   background-color: white;
 }
 
-/* line 304, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 306, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_bespoke:hover .card_heading {
   color: white;
 }
 
-/* line 308, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 310, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_bespoke:hover .bespoke_text {
   color: white;
 }
 
-/* line 312, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 314, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_bespoke:hover .read_btn {
   color: #67809f;
   background-color: white;
 }
 
-/* line 318, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 320, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_it:hover {
   background-color: #4183d7;
   transform: translateY(-10px);
   transition: transform 0.5s ease-in-out;
 }
 
-/* line 323, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 325, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_it:hover .fa-desktop {
   color: #4183d7;
   background-color: white;
 }
 
-/* line 328, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 330, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_it:hover .card_heading {
   color: white;
 }
 
-/* line 332, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 334, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_it:hover .it_text {
   color: white;
 }
 
-/* line 336, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 338, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_it:hover .read_btn {
   color: #4183d7;
   background-color: white;
 }
 
-/* line 342, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 344, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_marketing:hover {
   background-color: #2ecc71;
   transform: translateY(-10px);
   transition: transform 0.5s ease-in-out;
 }
 
-/* line 347, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 349, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_marketing:hover .fa-bar-chart {
   color: #2ecc71;
   background-color: white;
 }
 
-/* line 352, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 354, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_marketing:hover .card_heading {
   color: white;
 }
 
-/* line 356, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 358, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_marketing:hover .marketing_text {
   color: white;
 }
 
-/* line 360, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 362, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_marketing:hover .read_btn {
   color: #2ecc71;
   background-color: white;
 }
 
-/* line 366, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 368, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_tele:hover {
   background-color: #d64541;
   transform: translateY(-10px);
   transition: transform 0.5s ease-in-out;
 }
 
-/* line 371, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 373, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_tele:hover .fa-phone {
   color: #d64541;
   background-color: white;
 }
 
-/* line 376, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 378, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_tele:hover .card_heading {
   color: white;
 }
 
-/* line 380, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 382, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_tele:hover .tele_text {
   color: white;
 }
 
-/* line 384, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 386, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_tele:hover .read_btn {
   color: #d64541;
   background-color: white;
 }
 
-/* line 390, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 392, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_web:hover {
   background-color: #926fb1;
   transform: translateY(-10px);
   transition: transform 0.5s ease-in-out;
 }
 
-/* line 395, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 397, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_web:hover .fa-code {
   color: #926fb1;
   background-color: white;
 }
 
-/* line 400, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 402, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_web:hover .card_heading {
   color: white;
 }
 
-/* line 404, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 406, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_web:hover .web_text {
   color: white;
 }
 
-/* line 408, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 410, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_web:hover .read_btn {
   color: #926fb1;
   background-color: white;
 }
 
-/* line 414, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 416, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_cyber:hover {
   background-color: #f62459;
   transform: translateY(-10px);
   transition: transform 0.5s ease-in-out;
 }
 
-/* line 419, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 421, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_cyber:hover .fa-shield {
   color: #f62459;
   background-color: white;
 }
 
-/* line 424, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 426, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_cyber:hover .card_heading {
   color: white;
 }
 
-/* line 428, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 430, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_cyber:hover .cyber_text {
   color: white;
 }
 
-/* line 432, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 434, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_cyber:hover .read_btn {
   color: #f62459;
   background-color: white;
 }
 
-/* line 438, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 440, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_dev:hover {
   background-color: #ce4125;
   transform: translateY(-10px);
   transition: transform 0.5s ease-in-out;
 }
 
-/* line 443, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 445, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_dev:hover .fa-graduation-cap {
   color: #ce4125;
   background-color: white;
 }
 
-/* line 448, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 450, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_dev:hover .card_heading {
   color: white;
 }
 
-/* line 452, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 454, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_dev:hover .dev_text {
   color: white;
 }
 
-/* line 456, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+/* line 458, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_dev:hover .read_btn {
   color: #ce4125;
   background-color: white;
 }
 
 @media screen and (min-width: 1024px) {
-  /* line 469, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+  /* line 471, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
   .services_container {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
   }
-  /* line 474, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+  /* line 476, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
   .services_container .services_heading .view_services {
     display: inline-block;
   }
-  /* line 479, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+  /* line 481, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
   .services_container .view_services_bottom {
     display: none;
   }
-  /* line 483, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+  /* line 485, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
   .services_container .services_card_container {
     grid-template-columns: repeat(3, 350px);
   }
-  /* line 487, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+  /* line 489, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
   .services_container .services_card_container .services_card_it br {
     display: none;
   }
-  /* line 492, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+  /* line 494, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
   .services_container .services_card_container_row_2 {
     grid-template-columns: repeat(2, 525px);
   }
 }
 
 @media screen and (min-width: 1640px) {
-  /* line 501, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+  /* line 503, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
   .services_container .services_card_container {
     grid-template-columns: repeat(3, 400px);
   }
-  /* line 505, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+  /* line 507, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
   .services_container .services_card_container .services_card_it br {
     display: inline;
   }
-  /* line 510, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+  /* line 512, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
   .services_container .services_card_container_row_2 {
     grid-template-columns: repeat(4, 300px);
   }
-  /* line 514, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
+  /* line 516, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
   .services_container .services_card_container_row_2 .services_card_dev br {
     display: none;
   }
@@ -1362,7 +1363,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   filter: saturate(0);
-  object-fit: contain;
+  object-fit: cover;
 }
 
 /* line 19, ../../../netMatters/Reflections/html_css_reflection/scss/partners/_partners.scss */

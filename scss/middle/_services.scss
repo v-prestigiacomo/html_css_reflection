@@ -1,9 +1,11 @@
 // Services
 
 .services_container {
+
     .services_heading {
         display: flex;
         justify-content: space-between;
+        padding-left: 20px;
         h1 {
             color: #333645;
             font-weight: 600;
@@ -467,8 +469,8 @@
 
 @media screen and (min-width: 1024px) {
     .services_container {
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-left: 15%;
+        padding-right: 15%;
 
         .services_heading {
             .view_services {
