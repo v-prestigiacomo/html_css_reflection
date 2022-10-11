@@ -1657,8 +1657,8 @@ body {
   display: block;
   background-color: white;
   max-width: 455px;
-  width: 100%;
-  min-height: 600px;
+  width: 350px;
+  height: 550px;
   margin: 15px auto;
   border: 1px solid rgba(0, 0, 0, 0.2);
   position: relative;
@@ -1714,20 +1714,22 @@ body {
 
 /* line 85, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_1 .article_text_wrapper h3 {
+  font-size: 1.05rem;
   color: #d64541;
 }
 
-/* line 89, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 90, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_1 .article_text_wrapper p {
+  font-size: 0.9rem;
   color: #333645;
 }
 
-/* line 93, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 95, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_1 .article_text_wrapper .horizontal_line {
   text-align: center;
 }
 
-/* line 95, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 97, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_1 .article_text_wrapper .horizontal_line span {
   display: inline-block;
   justify-self: center;
@@ -1737,19 +1739,19 @@ body {
   margin-bottom: 20px;
 }
 
-/* line 105, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 107, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_1 .article_text_wrapper .article_footer {
   display: grid;
   grid-template-columns: 1fr 5fr;
 }
 
-/* line 108, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 110, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_1 .article_text_wrapper .article_footer .logo {
   display: inline-block;
   width: 70px;
 }
 
-/* line 114, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 116, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_1 .article_text_wrapper .article_footer .details {
   display: inline-block;
   margin-left: 15px;
@@ -1758,12 +1760,12 @@ body {
   text-align: left;
 }
 
-/* line 121, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 123, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_1 .article_text_wrapper .article_footer .details p {
   margin: 0px;
 }
 
-/* line 125, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 127, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_1 .article_text_wrapper .article_footer .details .author {
   display: block;
   margin: 0px;
@@ -1771,20 +1773,20 @@ body {
   font-weight: bold;
 }
 
-/* line 132, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 134, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_1 .article_text_wrapper .article_footer .details .date {
   display: block;
   margin: 0px;
   color: #666;
 }
 
-/* line 143, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 145, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_2 {
   display: block;
   background-color: white;
   max-width: 455px;
-  width: 100%;
-  min-height: 600px;
+  width: 350px;
+  height: 550px;
   margin: 15px auto;
   border: 1px solid rgba(0, 0, 0, 0.2);
   position: relative;
@@ -1792,14 +1794,14 @@ body {
   cursor: pointer;
 }
 
-/* line 154, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 156, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_2 img {
   object-fit: cover;
   max-width: 455px;
   width: 100%;
 }
 
-/* line 160, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 162, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_2 .img_flag_b {
   position: absolute;
   top: 10px;
@@ -1808,23 +1810,23 @@ body {
   background-color: #926fb1;
 }
 
-/* line 166, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 168, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_2 .img_flag_b a {
   text-decoration: none;
   color: white;
 }
 
-/* line 171, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 173, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_2 .img_flag_b a:hover {
   text-decoration: underline;
 }
 
-/* line 176, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 178, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_2 .article_text_wrapper {
   padding: 20px;
 }
 
-/* line 178, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 180, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_2 .article_text_wrapper .article_btn_2 {
   display: inline-block;
   padding: 15px 20px;
@@ -1832,49 +1834,52 @@ body {
   border-radius: 6px;
 }
 
-/* line 183, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 185, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_2 .article_text_wrapper .article_btn_2 a {
   text-decoration: none;
   color: white;
 }
 
-/* line 189, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 191, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_2 .article_text_wrapper h3 {
+  font-size: 1.05rem;
   color: #926fb1;
 }
 
-/* line 193, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 196, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_2 .article_text_wrapper p {
+  font-size: 0.9rem;
   color: #333645;
 }
 
-/* line 196, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 200, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_2 .article_text_wrapper .horizontal_line {
   text-align: center;
 }
 
-/* line 198, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 202, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_2 .article_text_wrapper .horizontal_line span {
   display: inline-block;
   justify-self: center;
   width: 80%;
   border-top: 1px solid rgba(0, 0, 0, 0.3);
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-/* line 206, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 211, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_2 .article_text_wrapper .article_footer {
   display: grid;
   grid-template-columns: 1fr 5fr;
 }
 
-/* line 209, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 214, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_2 .article_text_wrapper .article_footer .logo {
   display: inline-block;
   width: 70px;
 }
 
-/* line 215, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 220, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_2 .article_text_wrapper .article_footer .details {
   display: inline-block;
   margin-left: 15px;
@@ -1883,12 +1888,12 @@ body {
   text-align: left;
 }
 
-/* line 222, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 227, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_2 .article_text_wrapper .article_footer .details p {
   margin: 0px;
 }
 
-/* line 226, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 231, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_2 .article_text_wrapper .article_footer .details .author {
   display: block;
   margin: 0px;
@@ -1896,20 +1901,20 @@ body {
   font-weight: bold;
 }
 
-/* line 233, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 238, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_2 .article_text_wrapper .article_footer .details .date {
   display: block;
   margin: 0px;
   color: #666;
 }
 
-/* line 243, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 248, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_3 {
   display: block;
   background-color: white;
   max-width: 455px;
-  width: 100%;
-  min-height: 600px;
+  width: 350px;
+  height: 550px;
   margin: 15px auto;
   border: 1px solid rgba(0, 0, 0, 0.2);
   position: relative;
@@ -1917,14 +1922,14 @@ body {
   cursor: pointer;
 }
 
-/* line 254, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 259, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_3 img {
   object-fit: cover;
   max-width: 455px;
   width: 100%;
 }
 
-/* line 259, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 264, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_3 .img_flag_c {
   position: absolute;
   top: 10px;
@@ -1933,23 +1938,23 @@ body {
   background-color: #67809f;
 }
 
-/* line 265, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 270, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_3 .img_flag_c a {
   text-decoration: none;
   color: white;
 }
 
-/* line 270, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 275, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_3 .img_flag_c a:hover {
   text-decoration: underline;
 }
 
-/* line 274, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 279, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_3 .article_text_wrapper {
   padding: 20px;
 }
 
-/* line 276, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 281, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_3 .article_text_wrapper .article_btn_3 {
   display: inline-block;
   padding: 15px 20px;
@@ -1957,49 +1962,52 @@ body {
   border-radius: 6px;
 }
 
-/* line 281, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 286, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_3 .article_text_wrapper .article_btn_3 a {
   text-decoration: none;
   color: white;
 }
 
-/* line 287, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 292, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_3 .article_text_wrapper h3 {
+  font-size: 1.05rem;
   color: #67809f;
 }
 
-/* line 291, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 297, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_3 .article_text_wrapper p {
+  font-size: 0.9rem;
   color: #333645;
 }
 
-/* line 294, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 301, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_3 .article_text_wrapper .horizontal_line {
   text-align: center;
 }
 
-/* line 296, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 303, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_3 .article_text_wrapper .horizontal_line span {
   display: inline-block;
   justify-self: center;
   width: 80%;
   border-top: 1px solid rgba(0, 0, 0, 0.3);
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-/* line 304, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 312, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_3 .article_text_wrapper .article_footer {
   display: grid;
   grid-template-columns: 1fr 5fr;
 }
 
-/* line 307, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 315, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_3 .article_text_wrapper .article_footer .logo {
   display: inline-block;
   width: 70px;
 }
 
-/* line 313, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 321, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_3 .article_text_wrapper .article_footer .details {
   display: inline-block;
   margin-left: 15px;
@@ -2008,12 +2016,12 @@ body {
   text-align: left;
 }
 
-/* line 320, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 328, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_3 .article_text_wrapper .article_footer .details p {
   margin: 0px;
 }
 
-/* line 324, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 332, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_3 .article_text_wrapper .article_footer .details .author {
   display: block;
   margin: 0px;
@@ -2021,74 +2029,74 @@ body {
   font-weight: bold;
 }
 
-/* line 331, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 339, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_3 .article_text_wrapper .article_footer .details .date {
   display: block;
   margin: 0px;
   color: #666;
 }
 
-/* line 350, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 358, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .view_top a:hover {
   text-decoration: underline;
 }
 
-/* line 356, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 364, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .view_bottom a:hover {
   text-decoration: underline;
 }
 
-/* line 362, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 370, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_1:hover {
   transform: translateY(-10px);
 }
 
-/* line 367, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 375, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_2:hover {
   transform: translateY(-10px);
   transition: transform 0.5s ease-in-out;
 }
 
-/* line 372, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+/* line 380, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container .article_cards .article_3:hover {
   transform: translateY(-10px);
   transition: transform 0.5s ease-in-out;
 }
 
 @media screen and (min-width: 1163px) {
-  /* line 382, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+  /* line 390, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
   .news_container {
     padding: 0px 15%;
   }
-  /* line 385, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+  /* line 393, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
   .news_container .headings a {
     display: inline;
   }
-  /* line 390, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+  /* line 398, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
   .news_container .view_bottom {
     display: none;
   }
-  /* line 393, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+  /* line 401, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
   .news_container .article_cards {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
   }
-  /* line 396, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+  /* line 404, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
   .news_container .article_cards .article_2 {
     display: inline;
   }
-  /* line 399, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+  /* line 407, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
   .news_container .article_cards .article_3 {
     display: none;
   }
 }
 
-@media screen and (min-width: 1850px) {
-  /* line 409, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+@media screen and (min-width: 1260px) {
+  /* line 417, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
   .news_container .article_cards {
     grid-template-columns: 1fr 1fr 1fr;
   }
-  /* line 411, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
+  /* line 419, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
   .news_container .article_cards .article_3 {
     display: inline;
   }
@@ -2269,14 +2277,14 @@ body {
   }
   /* line 148, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
   .form_background .form_container #newsletter_form fieldset .input_container .name_container #name_field {
-    width: 80%;
+    width: 90%;
     height: 50px;
     font-size: 1.2rem;
   }
   /* line 155, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
   .form_background .form_container #newsletter_form fieldset .input_container .email_container #email_field {
     display: inline;
-    width: 80%;
+    width: 90%;
     height: 50px;
     font-size: 1.2rem;
   }
