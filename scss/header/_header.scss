@@ -91,6 +91,10 @@
                     margin: 0px 0px;
                     border-style: none; 
                 }
+
+                #search_submit1:hover {
+                    background-color: #6b6e7c;
+                }
     
                 #search_submit1 {
                     width: 60px;
@@ -362,10 +366,13 @@
                         text-decoration: none;
                     }
 
-                    a:hover {
-                        text-decoration: underline;
+                    ul {
+                        a:hover {
+                            text-decoration: underline;
+                        }
                     }
 
+                    
                     ul {
                         border-radius: 0px 0px 6px 6px;
                         li {

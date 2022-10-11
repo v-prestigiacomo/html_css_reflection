@@ -114,15 +114,29 @@
         .social {
             div {
                 display: inline;
-                padding: 5px 7px;
-                width: 10px;
-                height: 10px;
                 border-radius: 50%;
-                justify-content: center;
+                text-align: center;
+                vertical-align: middle;
 
                 a {
                     text-decoration: none;
                 }
+            }
+            
+            .facebook {
+                padding: 5px 8px;
+            }
+
+            .twitter {
+                padding: 5px 6px;
+            }
+
+            .insta {
+                padding: 5px 6px;
+            }
+
+            .linkedin {
+                padding: 5px 8px;
             }
 
             .facebook:hover {
@@ -154,9 +168,7 @@
             grid-template-areas: 
                 "about about about services services services"
                 "cambridge cambridge wymondham wymondham yarmouth yarmouth";
-            margin: auto 10%;    
-
-            
+            margin: auto 10%; 
         }
 
         .bottom {

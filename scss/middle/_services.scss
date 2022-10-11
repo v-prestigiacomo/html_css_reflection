@@ -101,6 +101,7 @@
 
             .bespoke_text {
                 display: block;
+                font-size: 0.95rem;
                 text-align: center;
                 color: #333645;
             }
@@ -132,6 +133,7 @@
             }
 
             .it_text {
+                font-size: 0.95rem;
                 text-align: center;
                 color: #333645;
             }
@@ -160,6 +162,7 @@
             }
 
             .marketing_text {
+                font-size: 0.95rem;
                 text-align: center;
                 color: #333645;
             }
@@ -200,6 +203,7 @@
             }
 
             .tele_text {
+                font-size: 0.95rem;
                 text-align: center;
                 color: #333645;
             }
@@ -219,7 +223,7 @@
                 border-radius: 50%;
                 background: #926fb1;
                 color: white;
-                padding: 20px;
+                padding: 20px 17px;
             }.card_heading {
                 color: #333645;
                 font-size: 0.9rem;  
@@ -227,6 +231,7 @@
             }
 
             .web_text {
+                font-size: 0.95rem;
                 text-align: center;
                 color: #333645;
             }
@@ -254,6 +259,7 @@
             }
 
             .cyber_text {
+                font-size: 0.95rem;
                 text-align: center;
                 color: #333645;
             }
@@ -273,7 +279,7 @@
                 border-radius: 50%;
                 background: #ce4125;
                 color: white;
-                padding: 20px;
+                padding: 20px 17px;
             }.card_heading {
                 color: #333645;
                 font-size: 0.9rem; 
@@ -281,6 +287,7 @@
             }
 
             .dev_text {
+                font-size: 0.95rem;
                 text-align: center;
                 color: #333645;
             }
@@ -492,7 +499,13 @@
             }
         }
         .services_card_container_row_2 {
-            grid-template-columns: repeat(2, 525px);
+            grid-template-columns: repeat(2, 565px);
+
+            .services_card_cyber {
+                br {
+                    display: none;
+                }
+            }
         }
     } 
        
@@ -501,20 +514,20 @@
 @media screen and (min-width: 1640px) {
     .services_container {
         .services_card_container {
-            grid-template-columns: repeat(3, 400px) ;
+            grid-template-columns: repeat(3, 400px);
 
-            .services_card_it {
+            .services_card_bespoke {
                 br {
-                    display: inline;
+                    display: none;
                 }
             }
         }
         .services_card_container_row_2 {
             grid-template-columns: repeat(4, 300px);
 
-            .services_card_dev {
+            .services_card_cyber {
                 br {
-                    display: none;
+                    display: inline;
                 }
             }
         }

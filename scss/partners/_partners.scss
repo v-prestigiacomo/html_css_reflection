@@ -12,7 +12,7 @@
             margin-left: auto;
             margin-right: auto;
             filter: saturate(0);
-            object-fit: cover;
+            object-fit: contain;
 
         }
 
@@ -28,6 +28,53 @@
     
     .partner_container {
         display: block;
+        .partner_images {
+            .busseys {
+                margin: auto;
+                width: 150px;
+            }
 
+            .crane {
+                margin: auto;
+                width: 150px;
+            }
+
+            .beat {
+                margin: auto;
+                width: 50px;
+            }
+
+            .north {
+                margin: auto;
+                width: 200px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    
+    .partner_container {
+        .partner_images {
+            .busseys {
+                margin: auto;
+                width: 200px;
+            }
+
+            .crane {
+                margin: auto;
+                width: 200px;
+            }
+
+            .beat {
+                margin: auto;
+                width: 100px;
+            }
+
+            .north {
+                margin: auto;
+                width: 250px;
+            }
+        }
     }
 }
