@@ -69,17 +69,38 @@
 
                 .marketing_container {
                     display: flex;
+                    position: relative;
                     input[type=checkbox] {
                         display: inline-block;
                         width: 32px;
                         height: 32px;
                         margin-right: 10px;
-                        background-color: rgba(#000, 0.0);
+                        -webkit-appearance: none;
+                        -moz-appearance: none;
+                        -moz-appearance: none;
+                        appearance: none;
                         outline: solid 3px #333645;
                         outline-offset: -2px;
-                        accent-color: #333645;
-                        border-radius: 20%;
+                        transition-duration: 0.1s;
+                        border-radius: 3px;
                         flex-shrink: 0;
+                        cursor: pointer;
+                    }
+
+                    input[type=checkbox]:checked {
+                        background-color: #333645;
+                    }
+
+                    input:checked + label::before {
+                        content: '\2713';
+                        display: block;
+                        text-align: center;
+                        font-weight: bold;
+                        color: white;
+                        position: absolute;
+                        left: 13px;
+                        top: 4px;
+
                     }
 
                     .marketing_text {

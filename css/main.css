@@ -759,6 +759,7 @@ body {
   border-radius: 5%;
   margin: 20px;
   padding: 30px;
+  max-width: 450px;
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
   transition: transform 0.5s ease-in-out, background-color 0.5s, color 0.5s;
   grid-template-columns: minmax(200px, 1fr);
@@ -776,7 +777,7 @@ body {
 /* line 91, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container .services_card_bespoke .card_heading {
   color: #333645;
-  font-size: 100%;
+  font-size: 0.9rem;
   width: auto;
   white-space: nowrap;
 }
@@ -806,6 +807,7 @@ body {
   border-radius: 5%;
   margin: 20px;
   padding: 30px;
+  max-width: 450px;
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
   transition: transform 0.5s ease-in-out, background-color 0.5s, color 0.5s;
   grid-template-columns: minmax(200px, 1fr);
@@ -823,7 +825,7 @@ body {
 /* line 124, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container .services_card_it .card_heading {
   color: #333645;
-  font-size: 100%;
+  font-size: 0.9rem;
   width: auto;
   white-space: nowrap;
 }
@@ -852,6 +854,7 @@ body {
   border-radius: 5%;
   margin: 20px;
   padding: 30px;
+  max-width: 450px;
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
   transition: transform 0.5s ease-in-out, background-color 0.5s, color 0.5s;
   grid-template-columns: minmax(200px, 1fr);
@@ -869,7 +872,7 @@ body {
 /* line 153, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container .services_card_marketing .card_heading {
   color: #333645;
-  font-size: 100%;
+  font-size: 0.9rem;
   width: auto;
   white-space: nowrap;
 }
@@ -911,6 +914,7 @@ body {
   border-radius: 5%;
   margin: 20px;
   padding: 30px;
+  max-width: 450px;
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
   transition: transform 0.5s ease-in-out, background-color 0.5s, color 0.5s;
   grid-template-columns: minmax(200px, 1fr);
@@ -928,7 +932,7 @@ body {
 /* line 194, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container_row_2 .services_card_tele .card_heading {
   color: #333645;
-  font-size: 100%;
+  font-size: 0.9rem;
   white-space: nowrap;
 }
 
@@ -956,6 +960,7 @@ body {
   border-radius: 5%;
   margin: 20px;
   padding: 30px;
+  max-width: 450px;
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
   transition: transform 0.5s ease-in-out, background-color 0.5s, color 0.5s;
   grid-template-columns: minmax(200px, 1fr);
@@ -973,7 +978,7 @@ body {
 /* line 222, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container_row_2 .services_card_web .card_heading {
   color: #333645;
-  font-size: 100%;
+  font-size: 0.9rem;
   white-space: nowrap;
 }
 
@@ -1001,6 +1006,7 @@ body {
   border-radius: 5%;
   margin: 20px;
   padding: 30px;
+  max-width: 450px;
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
   transition: transform 0.5s ease-in-out, background-color 0.5s, color 0.5s;
   grid-template-columns: minmax(200px, 1fr);
@@ -1018,7 +1024,7 @@ body {
 /* line 250, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container_row_2 .services_card_cyber .card_heading {
   color: #333645;
-  font-size: 100%;
+  font-size: 0.9rem;
   white-space: nowrap;
 }
 
@@ -1046,6 +1052,7 @@ body {
   border-radius: 5%;
   margin: 20px;
   padding: 30px;
+  max-width: 450px;
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
   transition: transform 0.5s ease-in-out, background-color 0.5s, color 0.5s;
   grid-template-columns: minmax(200px, 1fr);
@@ -1063,7 +1070,7 @@ body {
 /* line 278, ../../../netMatters/Reflections/html_css_reflection/scss/middle/_services.scss */
 .services_container .services_card_container_row_2 .services_card_dev .card_heading {
   color: #333645;
-  font-size: 100%;
+  font-size: 0.9rem;
   white-space: nowrap;
 }
 
@@ -1373,14 +1380,15 @@ body {
 .txt_section_container .txt_group_1 p {
   color: white;
   margin: 0px 0px 25px;
+  line-height: 2;
 }
 
-/* line 21, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
+/* line 22, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
 .txt_section_container .txt_group_1 .p_bold {
   font-weight: bold;
 }
 
-/* line 25, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
+/* line 26, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
 .txt_section_container .txt_group_1 .read_btn {
   display: inline-block;
   margin-top: 15px;
@@ -1391,56 +1399,56 @@ body {
   border-radius: 6px;
 }
 
-/* line 35, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
+/* line 36, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
 .txt_section_container .txt_group_1 .read_btn_link:hover .read_btn {
   background-color: #15161d;
 }
 
-/* line 40, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
+/* line 41, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
 .txt_section_container .txt_group_2 {
   display: inline-block;
   margin: 20px;
   width: 96%;
 }
 
-/* line 44, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
+/* line 45, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
 .txt_section_container .txt_group_2 h2 {
   color: white;
 }
 
-/* line 48, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
+/* line 49, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
 .txt_section_container .txt_group_2 p {
   margin: 25px 0px 25px;
   color: white;
   white-space: pre-line;
 }
 
-/* line 54, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
+/* line 55, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
 .txt_section_container .txt_group_2 .fa-star {
   color: orange;
 }
 
-/* line 58, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
+/* line 59, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
 .txt_section_container .txt_group_2 .star {
   display: flex;
   justify-content: left;
 }
 
-/* line 63, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
+/* line 64, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
 .txt_section_container .txt_group_2 .quote {
   font-size: 1.3rem;
   font-style: italic;
   font-weight: bold;
 }
 
-/* line 69, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
+/* line 70, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
 .txt_section_container .txt_group_2 .quote_name {
   color: #a3a8ac;
   font-size: 1.2rem;
   font-weight: bold;
 }
 
-/* line 75, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
+/* line 76, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
 .txt_section_container .txt_group_2 .review_buttons {
   display: grid;
   grid-template-columns: 1fr;
@@ -1448,12 +1456,12 @@ body {
   text-align: center;
 }
 
-/* line 81, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
+/* line 82, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
 .txt_section_container .txt_group_2 .review_buttons .greview_link {
   text-decoration: none;
 }
 
-/* line 83, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
+/* line 84, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
 .txt_section_container .txt_group_2 .review_buttons .greview_link .greview {
   display: block;
   width: 95%;
@@ -1466,17 +1474,17 @@ body {
   white-space: nowrap;
 }
 
-/* line 96, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
+/* line 97, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
 .txt_section_container .txt_group_2 .review_buttons .greview_link:hover .greview {
   background-color: #2f60af;
 }
 
-/* line 102, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
+/* line 103, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
 .txt_section_container .txt_group_2 .review_buttons .treview_link {
   text-decoration: none;
 }
 
-/* line 104, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
+/* line 105, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
 .txt_section_container .txt_group_2 .review_buttons .treview_link .treview {
   display: block;
   width: 95%;
@@ -1489,30 +1497,30 @@ body {
   white-space: nowrap;
 }
 
-/* line 117, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
+/* line 118, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
 .txt_section_container .txt_group_2 .review_buttons .treview_link:hover .treview {
   background-color: #00724e;
 }
 
 @media screen and (min-width: 600px) {
-  /* line 133, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
+  /* line 134, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
   .txt_section_container .txt_group_2 .review_buttons {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media screen and (min-width: 1000px) {
-  /* line 141, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
+  /* line 142, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
   .txt_section_container {
     padding-left: 15%;
     padding-right: 15%;
     grid-template-columns: repeat(2, minmax(40%, 1fr));
   }
-  /* line 146, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
+  /* line 147, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
   .txt_group_1 {
     margin-right: 40px;
   }
-  /* line 149, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
+  /* line 150, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
   .txt_group_2 {
     margin-left: 40px;
   }
@@ -2098,34 +2106,56 @@ body {
 /* line 70, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
 .form_background .form_container #newsletter_form fieldset .marketing_container {
   display: flex;
+  position: relative;
 }
 
-/* line 72, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
+/* line 73, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
 .form_background .form_container #newsletter_form fieldset .marketing_container input[type=checkbox] {
   display: inline-block;
   width: 32px;
   height: 32px;
   margin-right: 10px;
-  background-color: rgba(0, 0, 0, 0);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   outline: solid 3px #333645;
   outline-offset: -2px;
-  accent-color: #333645;
-  border-radius: 20%;
+  transition-duration: 0.1s;
+  border-radius: 3px;
   flex-shrink: 0;
+  cursor: pointer;
 }
 
-/* line 85, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
+/* line 90, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
+.form_background .form_container #newsletter_form fieldset .marketing_container input[type=checkbox]:checked {
+  background-color: #333645;
+}
+
+/* line 94, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
+.form_background .form_container #newsletter_form fieldset .marketing_container input:checked + label::before {
+  content: '\2713';
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  left: 13px;
+  top: 4px;
+}
+
+/* line 106, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
 .form_background .form_container #newsletter_form fieldset .marketing_container .marketing_text {
   display: inline-block;
   color: #333645;
 }
 
-/* line 88, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
+/* line 109, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
 .form_background .form_container #newsletter_form fieldset .marketing_container .marketing_text a {
   color: #333645;
 }
 
-/* line 95, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
+/* line 116, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
 .form_background .form_container #newsletter_form fieldset input[type=submit] {
   margin: 15px 15px 15px 0px;
   background-color: #333645;
@@ -2136,33 +2166,33 @@ body {
   border-style: none;
 }
 
-/* line 105, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
+/* line 126, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
 .form_background .form_container #newsletter_form fieldset input[type=submit]:hover {
   background-color: #191a22;
   cursor: pointer;
 }
 
 @media screen and (min-width: 992px) {
-  /* line 117, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
+  /* line 138, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
   .form_background .form_container {
     margin: auto 15%;
   }
-  /* line 121, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
+  /* line 142, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
   .form_background .form_container #newsletter_form fieldset .input_container {
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;
   }
-  /* line 125, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
+  /* line 146, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
   .form_background .form_container #newsletter_form fieldset .input_container .name_container {
     display: inline;
   }
-  /* line 127, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
+  /* line 148, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
   .form_background .form_container #newsletter_form fieldset .input_container .name_container #name_field {
     width: 80%;
     height: 50px;
     font-size: 1.2rem;
   }
-  /* line 134, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
+  /* line 155, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
   .form_background .form_container #newsletter_form fieldset .input_container .email_container #email_field {
     display: inline;
     width: 80%;
