@@ -17,14 +17,16 @@
         .header_top {
             display: flex;
             justify-content: center;
-            margin: 15px auto;
+            margin: 15px 0px;
 
             .logo_container {
                 display: inline-block;
+                margin-right: auto;
+                margin-left: 0px;
                 img {
-                    width: 88%;
-                    height: 88%;
-                    margin-top: auto;
+                    width: 90%;
+                    height: 90%;
+                    margin-top: 5px;
                     margin-bottom: auto; 
                     margin-right: 15px;
                     margin-left: auto;
@@ -171,6 +173,7 @@
 @media screen and (min-width: 768px) {
     .header_section_1 {
         .header_top {
+            margin: 15px auto;
             flex-wrap: nowrap;
         .fa-phone {
             display: none;

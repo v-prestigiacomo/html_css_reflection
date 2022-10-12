@@ -1,7 +1,7 @@
 // Services
 
 .services_container {
-
+    margin-bottom: 20px;
     .services_heading {
         display: flex;
         justify-content: space-between;
@@ -476,7 +476,7 @@
 
 @media screen and (min-width: 1024px) {
     .services_container {
-        margin: 0px auto;
+        margin: 0px auto 20px;
         width: 1050px;
 
         .services_heading {
@@ -513,7 +513,7 @@
 
 @media screen and (min-width: 1640px) {
     .services_container {
-        margin: 0px auto;
+        margin: 0px auto 20px;
         width: 1200px;
         .services_heading {
 
