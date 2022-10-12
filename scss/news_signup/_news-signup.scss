@@ -13,8 +13,10 @@
         max-width: 540px;
         #newsletter_form {
             display: block;
+            justify-content: center;
             fieldset {
                 border: none;
+                margin: 0px;
                 padding: 0px;
                 legend {
                     font-size: 200%;
@@ -35,7 +37,7 @@
                         }
 
                         #name_field {
-                            width: 100%;
+                            width: 90%;
                         }
                     }
                     .email_container {
@@ -49,7 +51,7 @@
                         }
                         
                         #email_field {
-                            width: 100%;
+                            width: 90%;
                         }
                     }
                 }

@@ -6,7 +6,8 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         justify-content: center;
-        margin: 40px 15%;
+        margin: auto;
+
         img {
             display: block;
             margin-left: auto;
@@ -24,29 +25,34 @@
 
 // Media Queries
 
-@media screen and (min-width: 888px) {
+@media screen and (min-width: 1070px) {
     
     .partner_container {
         display: block;
+        margin: auto;
+        justify-items: center;
+        width: 1050px;
+        margin-bottom: 20px;
         .partner_images {
+            width: 1030px;
             .busseys {
                 margin: auto;
-                width: 150px;
+                width: 210px;
             }
 
             .crane {
                 margin: auto;
-                width: 150px;
+                width: 200px;
             }
 
             .beat {
                 margin: auto;
-                width: 50px;
+                width: 60px;
             }
 
             .north {
                 margin: auto;
-                width: 200px;
+                width: 230px;
             }
         }
     }
@@ -68,7 +74,7 @@
 
             .beat {
                 margin: auto;
-                width: 100px;
+                width: 70px;
             }
 
             .north {
