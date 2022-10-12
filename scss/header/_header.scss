@@ -58,11 +58,23 @@
                 }
             }
             
-        
-            .fa-phone {
-                margin-top: auto;
-                margin-bottom: auto;
-                margin-right: 15px;
+            .phone_link {
+                margin: auto 15px auto 0px;
+                text-decoration: none;
+                .fa-phone {
+                    margin-top: auto;
+                    margin-bottom: auto;
+                    color: #22242e;
+                }
+            }
+
+            .phone_link:hover {
+                .phone_container {
+                    .fa-phone {
+                        color: #09090c;
+                    }
+
+                }
             }
             
             .form1 {
@@ -583,7 +595,7 @@
         }
     } 
 
-@media screen and (min-width: 1260px) {
+@media screen and (min-width: 1280px) {
     .header_section_1 {
         .header_top {
             .form_top {

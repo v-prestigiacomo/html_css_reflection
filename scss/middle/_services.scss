@@ -27,6 +27,7 @@
                 display: inline-block;
                 vertical-align: middle;
                 color: #333645;
+                text-decoration: none;
             }
 
             .view_link1:hover {
@@ -72,7 +73,7 @@
         width: 100%;
         height: auto;
         margin: auto;
-        padding: auto;
+        padding: 0px;
         grid-template-columns: 1fr;
         justify-content: center;
         justify-items: center;
@@ -100,7 +101,7 @@
             }
 
             .bespoke_text {
-                display: block;
+                max-width: 500px;
                 font-size: 0.95rem;
                 text-align: center;
                 color: #333645;
@@ -133,6 +134,7 @@
             }
 
             .it_text {
+                max-width: 500px;
                 font-size: 0.95rem;
                 text-align: center;
                 color: #333645;
@@ -162,6 +164,7 @@
             }
 
             .marketing_text {
+                max-width: 500px;
                 font-size: 0.95rem;
                 text-align: center;
                 color: #333645;
@@ -203,6 +206,7 @@
             }
 
             .tele_text {
+                max-width: 500px;
                 font-size: 0.95rem;
                 text-align: center;
                 color: #333645;
@@ -231,6 +235,7 @@
             }
 
             .web_text {
+                max-width: 500px;
                 font-size: 0.95rem;
                 text-align: center;
                 color: #333645;
@@ -259,6 +264,7 @@
             }
 
             .cyber_text {
+                max-width: 500px;
                 font-size: 0.95rem;
                 text-align: center;
                 color: #333645;
@@ -287,6 +293,7 @@
             }
 
             .dev_text {
+                max-width: 500px;
                 font-size: 0.95rem;
                 text-align: center;
                 color: #333645;
@@ -474,7 +481,7 @@
 // Media Queries
 
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1070px) {
     .services_container {
         margin: 0px auto 20px;
         width: 1050px;
@@ -499,7 +506,7 @@
             }
         }
         .services_card_container_row_2 {
-            grid-template-columns: repeat(2, 565px);
+            grid-template-columns: repeat(2, 525px);
 
             .services_card_cyber {
                 br {
