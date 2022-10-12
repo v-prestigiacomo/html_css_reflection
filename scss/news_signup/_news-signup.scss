@@ -3,13 +3,19 @@
 .form_background {
     background-color: #ddd;
     padding-top: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
     .form_container {
         display: block;
-        margin: auto 2%;
+        justify-items: center;
+        margin: auto auto;
+        width: 100%;
+        max-width: 540px;
         #newsletter_form {
             display: block;
             fieldset {
                 border: none;
+                padding: 0px;
                 legend {
                     font-size: 200%;
                     color: #333645;
@@ -133,35 +139,28 @@
 }
 
 
-@media screen and (min-width: 992px) {
-    .form_background {
-        .form_container {
-            margin: auto 15%;
-            #newsletter_form {
-                fieldset {
-                    .input_container {
-                        grid-template-columns: 1fr 1fr;
-                        justify-content: space-between;
 
-                        .name_container {
-                            display: inline;
-                            #name_field {
-                                width: 90%;
-                                height: 50px;
-                                font-size: 1.2rem;
-                            }
-                        }
-                        .email_container {                   
-                            #email_field {
-                                display: inline;
-                                width: 90%;
-                                height: 50px;
-                                font-size: 1.2rem;
-                            }
-                        }
-                    }
-                }
-            }
+@media screen and (min-width: 1070px) {
+    .form_background {
+        
+        .form_container {
+            width: 1050px;
+            max-width: none;
+            justify-content: center;
+            margin: auto auto;
         }
     }
+    
+}
+
+@media screen and (min-width: 1640px) {
+    .form_background {
+        
+        .form_container {
+            width: 1200px;
+            justify-content: center;
+            margin: auto auto;
+        }
+    }
+    
 }
