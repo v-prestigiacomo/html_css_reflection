@@ -476,8 +476,8 @@
 
 @media screen and (min-width: 1024px) {
     .services_container {
-        padding-left: 15%;
-        padding-right: 15%;
+        margin: 0px auto;
+        width: 1050px;
 
         .services_heading {
             .view_services {
@@ -513,6 +513,12 @@
 
 @media screen and (min-width: 1640px) {
     .services_container {
+        margin: 0px auto;
+        width: 1200px;
+        .services_heading {
+
+        }
+
         .services_card_container {
             grid-template-columns: repeat(3, 400px);
 
