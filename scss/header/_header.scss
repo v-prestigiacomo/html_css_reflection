@@ -24,7 +24,7 @@
                 img {
                     width: 88%;
                     height: 88%;
-                    margin-top: auto;
+                    margin-top: 5px;
                     margin-bottom: auto; 
                     margin-right: 15px;
                     margin-left: auto;
@@ -111,6 +111,7 @@
             display: flex;
             margin: 0px;
             justify-content: center;
+            position: relative;
             .form_bottom {
                 display: flex;
                 margin: auto auto 20px; 
@@ -141,9 +142,12 @@
                     width: 60px;
                     height: 60px;
                     border-radius: 0px 3px 3px 0px;
-                    color: white;
-                    background-color: #999aa2;
+                    color: #22242e;
+                    background-color: rgba(0,0,0,0);
                     border-style: none;
+                    position: absolute;
+                    right: 0px;
+                    top: 0px;
                 }
             } 
         }
@@ -172,6 +176,12 @@
     .header_section_1 {
         .header_top {
             flex-wrap: nowrap;
+
+            .logo_container {
+                img {
+                    margin-top: auto;
+                }
+            }
         .fa-phone {
             display: none;
         }

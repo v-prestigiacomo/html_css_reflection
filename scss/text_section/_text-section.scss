@@ -7,7 +7,7 @@
     padding: 40px 2%;
     .txt_group_1 {
         display: inline-block;
-        margin: 20px;
+        margin: 20px 30px;
         width: 96%;
         h2 {
             color: white;
@@ -40,7 +40,7 @@
 
     .txt_group_2 {
         display: inline-block;
-        margin: 20px;
+        margin: 20px 30px;
         width: 96%;
         h2 {
             color: white;
@@ -114,12 +114,9 @@
                     white-space: nowrap;
                 }
             }
-            
             .treview_link:hover .treview {
                 background-color: #00724e;
             }
-           
-            
         }
     }
 
