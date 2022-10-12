@@ -796,7 +796,7 @@ body {
   border-radius: 5%;
   width: fit-content;
   margin: 20px;
-  padding: 30px;
+  padding: 20px 30px;
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
   transition: transform 0.5s ease-in-out, background-color 0.5s, color 0.5s;
   grid-template-columns: 1fr;
@@ -844,7 +844,7 @@ body {
   border-radius: 5%;
   width: fit-content;
   margin: 20px;
-  padding: 30px;
+  padding: 20px 30px;
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
   transition: transform 0.5s ease-in-out, background-color 0.5s, color 0.5s;
   grid-template-columns: minmax(200px, 1fr);
@@ -892,7 +892,7 @@ body {
   border-radius: 5%;
   width: fit-content;
   margin: 20px;
-  padding: 30px;
+  padding: 20px 30px;
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
   transition: transform 0.5s ease-in-out, background-color 0.5s, color 0.5s;
   grid-template-columns: minmax(200px, 1fr);
@@ -954,7 +954,7 @@ body {
   border-radius: 5%;
   width: fit-content;
   margin: 20px;
-  padding: 30px;
+  padding: 20px 30px;
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
   transition: transform 0.5s ease-in-out, background-color 0.5s, color 0.5s;
   grid-template-columns: minmax(200px, 1fr);
@@ -1001,7 +1001,7 @@ body {
   border-radius: 5%;
   width: fit-content;
   margin: 20px;
-  padding: 30px;
+  padding: 20px 30px;
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
   transition: transform 0.5s ease-in-out, background-color 0.5s, color 0.5s;
   grid-template-columns: minmax(200px, 1fr);
@@ -1048,7 +1048,7 @@ body {
   border-radius: 5%;
   width: fit-content;
   margin: 20px;
-  padding: 30px;
+  padding: 20px 30px;
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
   transition: transform 0.5s ease-in-out, background-color 0.5s, color 0.5s;
   grid-template-columns: minmax(200px, 1fr);
@@ -1095,7 +1095,7 @@ body {
   border-radius: 5%;
   width: fit-content;
   margin: 20px;
-  padding: 30px;
+  padding: 20px 30px;
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
   transition: transform 0.5s ease-in-out, background-color 0.5s, color 0.5s;
   grid-template-columns: minmax(200px, 1fr);
@@ -1624,15 +1624,14 @@ body {
 @media screen and (min-width: 1000px) {
   /* line 142, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
   .txt_section_container {
-    padding-left: 15%;
-    padding-right: 15%;
+    padding: 40px 10%;
     grid-template-columns: repeat(2, minmax(40%, 1fr));
   }
-  /* line 147, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
+  /* line 146, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
   .txt_group_1 {
     margin-right: 40px;
   }
-  /* line 150, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
+  /* line 149, ../../../netMatters/Reflections/html_css_reflection/scss/text_section/_text-section.scss */
   .txt_group_2 {
     margin-left: 40px;
   }
