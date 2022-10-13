@@ -15,6 +15,7 @@
         width: 100%;
         max-width: 540px;
         margin: auto;
+        padding-bottom: 20px;
         
             .footer {
                 display: block;
@@ -86,11 +87,12 @@
     .bottom {
         display: flex;
         justify-content: space-between;
-        margin: auto 10%;
+        margin: auto 2%;
         color: white;
         font-weight: normal;
         font-size: 0.8rem;
         padding-top: 10px;
+        padding-bottom: 20px;
         border-top: 1px solid #888;
 
         .license {

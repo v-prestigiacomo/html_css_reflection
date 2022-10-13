@@ -2397,23 +2397,24 @@ body {
   width: 100%;
   max-width: 540px;
   margin: auto;
+  padding-bottom: 20px;
 }
 
-/* line 19, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
+/* line 20, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
 .footer_background .footer_container .footer {
   display: block;
   margin: 10px auto;
   padding: 10px;
 }
 
-/* line 26, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
+/* line 27, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
 .footer_background .footer_container .footer > h3 {
   color: white;
   font-weight: normal;
   font-size: 0.95rem;
 }
 
-/* line 32, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
+/* line 33, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
 .footer_background .footer_container .footer > a {
   display: block;
   margin: 0px 0px;
@@ -2422,7 +2423,7 @@ body {
   font-size: 0.9rem;
 }
 
-/* line 40, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
+/* line 41, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
 .footer_background .footer_container .footer > .tel {
   display: inline-block;
   margin: 0px 0px;
@@ -2431,87 +2432,88 @@ body {
   font-size: 0.9rem;
 }
 
-/* line 48, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
+/* line 49, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
 .footer_background .footer_container .footer > a:hover {
   text-decoration: underline;
 }
 
-/* line 52, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
+/* line 53, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
 .footer_background .footer_container .footer > p {
   margin: 0px 0px;
   color: white;
   font-size: 0.9rem;
 }
 
-/* line 58, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
+/* line 59, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
 .footer_background .footer_container .footer > span {
   margin: 0px 0px;
   color: white;
   font-size: 0.9rem;
 }
 
-/* line 64, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
+/* line 65, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
 .footer_background .footer_container .about {
   grid-area: about;
 }
 
-/* line 68, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
+/* line 69, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
 .footer_background .footer_container .services {
   grid-area: services;
 }
 
-/* line 72, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
+/* line 73, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
 .footer_background .footer_container .cambridge {
   grid-area: cambridge;
 }
 
-/* line 76, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
+/* line 77, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
 .footer_background .footer_container .wymondham {
   grid-area: wymondham;
 }
 
-/* line 80, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
+/* line 81, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
 .footer_background .footer_container .yarmouth {
   grid-area: yarmouth;
 }
 
-/* line 86, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
+/* line 87, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
 .footer_background .bottom {
   display: flex;
   justify-content: space-between;
-  margin: auto 10%;
+  margin: auto 2%;
   color: white;
   font-weight: normal;
   font-size: 0.8rem;
   padding-top: 10px;
+  padding-bottom: 20px;
   border-top: 1px solid #888;
 }
 
-/* line 96, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
+/* line 98, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
 .footer_background .bottom .license {
   display: inline-flex;
   flex-wrap: wrap;
   width: 70%;
 }
 
-/* line 101, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
+/* line 103, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
 .footer_background .bottom .license .rights_hidden {
   display: none;
 }
 
-/* line 106, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
+/* line 108, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
 .footer_background .bottom a {
   text-decoration: none;
   color: white;
   font-size: 0.8rem;
 }
 
-/* line 112, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
+/* line 114, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
 .footer_background .bottom a:hover {
   text-decoration: underline;
 }
 
-/* line 117, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
+/* line 119, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
 .footer_background .bottom .social div {
   display: inline;
   border-radius: 50%;
@@ -2519,70 +2521,70 @@ body {
   vertical-align: middle;
 }
 
-/* line 123, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
+/* line 125, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
 .footer_background .bottom .social div a {
   text-decoration: none;
 }
 
-/* line 128, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
+/* line 130, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
 .footer_background .bottom .social .facebook {
   padding: 5px 8px;
 }
 
-/* line 132, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
+/* line 134, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
 .footer_background .bottom .social .twitter {
   padding: 5px 6px;
 }
 
-/* line 136, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
+/* line 138, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
 .footer_background .bottom .social .insta {
   padding: 5px 6px;
 }
 
-/* line 140, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
+/* line 142, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
 .footer_background .bottom .social .linkedin {
   padding: 5px 8px;
 }
 
-/* line 144, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
+/* line 146, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
 .footer_background .bottom .social .facebook:hover {
   background-color: #4267B2;
 }
 
-/* line 148, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
+/* line 150, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
 .footer_background .bottom .social .twitter:hover {
   background-color: #1DA1F2;
 }
 
-/* line 152, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
+/* line 154, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
 .footer_background .bottom .social .insta:hover {
   background-color: #f2003c;
 }
 
-/* line 156, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
+/* line 158, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
 .footer_background .bottom .social .linkedin:hover {
   background-color: #0072b1;
 }
 
 @media screen and (min-width: 722px) {
-  /* line 167, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
+  /* line 169, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
   .footer_background .footer_container {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "about about about services services services" "cambridge cambridge wymondham wymondham yarmouth yarmouth";
   }
-  /* line 177, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
+  /* line 179, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
   .footer_background .bottom .license .rights_hidden {
     display: inline-block;
   }
-  /* line 181, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
+  /* line 183, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
   .footer_background .bottom .license .rights_bottom {
     display: none;
   }
 }
 
 @media screen and (min-width: 1070px) {
-  /* line 191, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
+  /* line 193, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
   .footer_background .footer_container {
     max-width: none;
     width: 1050px;
@@ -2590,7 +2592,7 @@ body {
 }
 
 @media screen and (min-width: 1260px) {
-  /* line 200, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
+  /* line 202, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
   .footer_background .footer_container {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
@@ -2599,7 +2601,7 @@ body {
 }
 
 @media screen and (min-width: 1640px) {
-  /* line 212, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
+  /* line 214, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
   .footer_background .footer_container {
     width: 1200px;
   }
