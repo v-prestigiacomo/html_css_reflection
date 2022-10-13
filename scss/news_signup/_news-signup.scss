@@ -2,9 +2,10 @@
 
 .form_background {
     background-color: #ddd;
-    padding-top: 20px;
+    padding-top: 30px;
     padding-left: 2%;
     padding-right: 2%;
+    padding-bottom: 30px;
     .form_container {
         display: block;
         justify-items: center;
@@ -19,7 +20,8 @@
                 margin: 0px;
                 padding: 0px;
                 legend {
-                    font-size: 200%;
+                    font-size: 2rem;
+                    font-weight: 400;
                     color: #333645;
 
                 }
@@ -29,7 +31,9 @@
                     .name_container {
 
                         label {
-                            font-size: 1.2rem;
+                            font-size: 1rem;
+                            font-weight: 600;
+                            color: #333645;
                         }
 
                         .asterisk {
@@ -43,7 +47,9 @@
                     .email_container {
 
                         label {
-                            font-size: 1.2rem;
+                            font-size: 1rem;
+                            font-weight: 600;
+                            color: #333645;
                         }
 
                         .asterisk {
@@ -107,12 +113,14 @@
                         color: white;
                         position: absolute;
                         left: 13px;
-                        top: 4px;
+                        top: 5px;
 
                     }
 
                     .marketing_text {
                         display: inline-block;
+                        font-size: 1.1rem;
+                        font-weight: 600;
                         color: #333645;
                         a {
                             color: #333645;
@@ -159,6 +167,18 @@
 
                  .input_container {
                     grid-template-columns: 1fr 1fr;
+
+                    .name_container {
+                        #name {
+                            width: 95%;
+                        }
+                    }
+
+                    .email_container {
+                        #name {
+                            width: 95%;
+                        }
+                    }
                  }
                 }
             }
