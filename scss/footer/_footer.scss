@@ -194,6 +194,11 @@
             max-width: none;
             width: 1050px;
         }
+        .bottom {
+            width: 1050px;
+            justify-content: center;
+            margin: auto;
+        }
     }
 }
 
@@ -206,12 +211,18 @@
                 "about services cambridge wymondham yarmouth";
                 
         }
+
+
     }
 }
 
 @media screen and (min-width: 1640px) {
     .footer_background {
         .footer_container {
+            width: 1200px;
+        }
+
+        .bottom {
             width: 1200px;
         }
     }

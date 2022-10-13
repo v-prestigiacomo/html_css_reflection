@@ -156,6 +156,10 @@
                 justify-content: center;
                 fieldset {
                  min-width: 0px;
+
+                 .input_container {
+                    grid-template-columns: 1fr 1fr;
+                 }
                 }
             }
         }

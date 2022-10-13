@@ -2385,10 +2385,14 @@ body {
   .form_background .form_container #newsletter_form fieldset {
     min-width: 0px;
   }
+  /* line 160, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
+  .form_background .form_container #newsletter_form fieldset .input_container {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media screen and (min-width: 1640px) {
-  /* line 169, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
+  /* line 173, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
   .form_background .form_container {
     width: 1200px;
     justify-content: center;
@@ -2604,10 +2608,16 @@ body {
     max-width: none;
     width: 1050px;
   }
+  /* line 197, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
+  .footer_background .bottom {
+    width: 1050px;
+    justify-content: center;
+    margin: auto;
+  }
 }
 
 @media screen and (min-width: 1260px) {
-  /* line 202, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
+  /* line 207, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
   .footer_background .footer_container {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
@@ -2616,8 +2626,12 @@ body {
 }
 
 @media screen and (min-width: 1640px) {
-  /* line 214, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
+  /* line 221, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
   .footer_background .footer_container {
+    width: 1200px;
+  }
+  /* line 225, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
+  .footer_background .bottom {
     width: 1200px;
   }
 }
