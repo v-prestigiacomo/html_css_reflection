@@ -211,9 +211,11 @@
     }
 }
 
-@media screen and (min-width: 1067px) {
+@media screen and (min-width: 1070px) {
     .header_section_1 {
-        padding: 0px 10%;
+        width: 1050px;
+        margin: auto;
+        justify-content: center;
         .header_top {
             .logo_container {
                 display: inline-block;

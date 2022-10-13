@@ -146,10 +146,18 @@
     .form_background {
         
         .form_container {
-            width: 1050px;
+            width: 1000px;
             max-width: none;
             justify-content: center;
             margin: auto auto;
+            padding: 0px;
+
+            #newsletter_form {
+                justify-content: center;
+                fieldset {
+                 min-width: 0px;
+                }
+            }
         }
     }
     
