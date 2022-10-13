@@ -225,7 +225,7 @@
                     height: 70px;
                     margin-top: auto;
                     margin-bottom: auto; 
-                    margin-right: 15px;
+                    margin-right: 100px;
                     margin-left: auto;
                 }
             }
@@ -317,7 +317,7 @@
         .header_container {
             ul {
                 display: inline;
-                width: 130px;
+                width: 150px;
                 margin: 0px 0px 0px 0px;
                 padding: 0px 0px 0px 0px;
                 text-align: center;
@@ -600,6 +600,12 @@
 @media screen and (min-width: 1280px) {
     .header_section_1 {
         .header_top {
+                .logo_container {
+                    img {
+                        margin-right: 15px;
+                    }
+                }
+
             .form_top {
                 #search_field1 {
                     display: inline-block;
@@ -614,7 +620,26 @@
 
     .header_container {
         ul {
-            width: 179px;            
+            width: 150px;            
+        }
+    }
+}
+
+@media screen and (min-width: 1640px) {
+    .header_section_1 {
+        .header_top {
+            .logo_container {
+                img {
+                    margin-right: 15px;
+                }
+            }
+        }
+    }
+    .header_container {
+        
+        
+        ul {
+            width: 180px;            
         }
     }
 }

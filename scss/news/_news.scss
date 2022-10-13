@@ -351,17 +351,23 @@
 
 .news_container {
 
-    .view_top {
-        a:hover {
-            text-decoration: underline;
+    .headings {
+        .view_top_heading {
+            .view_top:hover {
+                text-decoration: underline;
+            }
         }
+        
     }
 
-    .view_bottom {
-        a:hover {
-            text-decoration: underline;
+    .headings {
+        .view_bottom {
+            a:hover {
+                text-decoration: underline;
+            }
         }
     }
+    
 
     .article_cards {
         .article_1:hover {
