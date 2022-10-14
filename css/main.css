@@ -690,17 +690,18 @@ body {
   /* line 38, ../../../netMatters/Reflections/html_css_reflection/scss/banner/_banner.scss */
   .banner_container .banner_txt p {
     font-size: 1.5rem;
+    font-weight: 600;
     text-align: left;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  /* line 49, ../../../netMatters/Reflections/html_css_reflection/scss/banner/_banner.scss */
+  /* line 50, ../../../netMatters/Reflections/html_css_reflection/scss/banner/_banner.scss */
   .banner_container .banner_txt h1 {
     font-size: 4rem;
     text-align: left;
   }
-  /* line 53, ../../../netMatters/Reflections/html_css_reflection/scss/banner/_banner.scss */
+  /* line 54, ../../../netMatters/Reflections/html_css_reflection/scss/banner/_banner.scss */
   .banner_container .banner_txt p {
     font-size: 1.625rem;
     text-align: left;
@@ -708,7 +709,7 @@ body {
 }
 
 @media screen and (min-width: 1640px) {
-  /* line 63, ../../../netMatters/Reflections/html_css_reflection/scss/banner/_banner.scss */
+  /* line 64, ../../../netMatters/Reflections/html_css_reflection/scss/banner/_banner.scss */
   .banner_container .banner_txt {
     width: 1200px;
   }
@@ -1523,7 +1524,7 @@ body {
   background-color: #333645;
   display: grid;
   grid-template-columns: 1fr;
-  padding: 40px 2%;
+  padding: 0px 2%;
   justify-items: center;
 }
 
@@ -1558,7 +1559,7 @@ body {
   display: inline-block;
   margin-top: 15px;
   margin-bottom: 25px;
-  padding: 15px 20px;
+  padding: 10px 20px;
   background-color: #272936;
   color: white;
   font-size: 1.4rem;
@@ -1706,7 +1707,7 @@ body {
 /* line 3, ../../../netMatters/Reflections/html_css_reflection/scss/news/_news.scss */
 .news_container {
   display: grid;
-  padding: 40px 2%;
+  padding: 20px 2%;
   width: 100%;
   justify-content: center;
 }
@@ -2279,52 +2280,52 @@ body {
   grid-template-columns: 1fr;
 }
 
-/* line 33, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
+/* line 32, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
 .form_background .form_container #newsletter_form fieldset .input_container .name_container label {
   font-size: 1rem;
   font-weight: 600;
   color: #333645;
 }
 
-/* line 39, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
+/* line 38, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
 .form_background .form_container #newsletter_form fieldset .input_container .name_container .asterisk {
   color: red;
 }
 
-/* line 43, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
+/* line 42, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
 .form_background .form_container #newsletter_form fieldset .input_container .name_container #name {
   width: 90%;
 }
 
-/* line 49, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
+/* line 48, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
 .form_background .form_container #newsletter_form fieldset .input_container .email_container label {
   font-size: 1rem;
   font-weight: 600;
   color: #333645;
 }
 
-/* line 55, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
+/* line 54, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
 .form_background .form_container #newsletter_form fieldset .input_container .email_container .asterisk {
   color: red;
 }
 
-/* line 59, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
+/* line 58, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
 .form_background .form_container #newsletter_form fieldset .input_container .email_container #email {
   width: 90%;
 }
 
-/* line 64, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
+/* line 63, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
 .form_background .form_container #newsletter_form fieldset .marketing_text {
   display: inline-block;
   font-size: 1.2rem;
 }
 
-/* line 68, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
+/* line 67, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
 .form_background .form_container #newsletter_form fieldset #marketing_box {
   display: inline;
 }
 
-/* line 72, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
+/* line 71, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
 .form_background .form_container #newsletter_form fieldset input[type=text] {
   border: none;
   margin: 5px 20px 20px 0px;
@@ -2333,19 +2334,19 @@ body {
   color: #333645;
 }
 
-/* line 79, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
+/* line 78, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
 .form_background .form_container #newsletter_form fieldset input[type=text]:focus {
   outline: none;
   box-shadow: 0 0 10px #9ecaed;
 }
 
-/* line 84, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
+/* line 83, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
 .form_background .form_container #newsletter_form fieldset .marketing_container {
   display: flex;
   position: relative;
 }
 
-/* line 87, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
+/* line 86, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
 .form_background .form_container #newsletter_form fieldset .marketing_container input[type=checkbox] {
   display: inline-block;
   width: 32px;
@@ -2363,12 +2364,12 @@ body {
   cursor: pointer;
 }
 
-/* line 104, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
+/* line 103, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
 .form_background .form_container #newsletter_form fieldset .marketing_container input[type=checkbox]:checked {
   background-color: #333645;
 }
 
-/* line 108, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
+/* line 107, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
 .form_background .form_container #newsletter_form fieldset .marketing_container input:checked + label::before {
   content: '\2713';
   display: block;
@@ -2380,7 +2381,7 @@ body {
   top: 5px;
 }
 
-/* line 120, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
+/* line 119, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
 .form_background .form_container #newsletter_form fieldset .marketing_container .marketing_text {
   display: inline-block;
   font-size: 1.1rem;
@@ -2388,12 +2389,12 @@ body {
   color: #333645;
 }
 
-/* line 125, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
+/* line 124, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
 .form_background .form_container #newsletter_form fieldset .marketing_container .marketing_text a {
   color: #333645;
 }
 
-/* line 132, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
+/* line 131, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
 .form_background .form_container #newsletter_form fieldset input[type=submit] {
   margin: 15px 15px 15px 0px;
   background-color: #333645;
@@ -2404,14 +2405,14 @@ body {
   border-style: none;
 }
 
-/* line 142, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
+/* line 141, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
 .form_background .form_container #newsletter_form fieldset input[type=submit]:hover {
   background-color: #191a22;
   cursor: pointer;
 }
 
 @media screen and (min-width: 1070px) {
-  /* line 156, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
+  /* line 155, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
   .form_background .form_container {
     width: 1000px;
     max-width: none;
@@ -2419,30 +2420,30 @@ body {
     margin: auto auto;
     padding: 0px;
   }
-  /* line 163, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
+  /* line 162, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
   .form_background .form_container #newsletter_form {
     justify-content: center;
   }
-  /* line 165, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
+  /* line 164, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
   .form_background .form_container #newsletter_form fieldset {
     min-width: 0px;
   }
-  /* line 168, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
+  /* line 167, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
   .form_background .form_container #newsletter_form fieldset .input_container {
     grid-template-columns: 1fr 1fr;
   }
-  /* line 172, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
+  /* line 171, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
   .form_background .form_container #newsletter_form fieldset .input_container .name_container #name {
     width: 95%;
   }
-  /* line 178, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
+  /* line 177, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
   .form_background .form_container #newsletter_form fieldset .input_container .email_container #name {
     width: 95%;
   }
 }
 
 @media screen and (min-width: 1640px) {
-  /* line 193, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
+  /* line 192, ../../../netMatters/Reflections/html_css_reflection/scss/news_signup/_news-signup.scss */
   .form_background .form_container {
     width: 1200px;
     justify-content: center;
@@ -2563,6 +2564,7 @@ body {
   display: inline-flex;
   flex-wrap: wrap;
   width: 70%;
+  margin-right: auto;
 }
 
 /* line 103, ../../../netMatters/Reflections/html_css_reflection/scss/footer/_footer.scss */
