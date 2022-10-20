@@ -21,12 +21,12 @@
 
             .logo_container {
                 display: inline-block;
-                margin-right: auto;
+                margin-right: 20px;
                 margin-left: 0px;
                 img {
-                    width: 90%;
-                    height: 90%;
-                    margin-top: 5px;
+                    width: 100%;
+                    height: auto;
+                    margin-top: 15px;
                     margin-bottom: auto; 
                     margin-right: 15px;
                     margin-left: auto;
@@ -46,6 +46,8 @@
             
             .hamburger_link {
                 display: inline-block;
+                margin-top: auto;
+                margin-bottom: auto;
                 .fa-bars {
                     display: inline-block;
                     background-color: #333645;
@@ -93,17 +95,22 @@
                     width: 240px;
                     font-size: 1.2rem;
                     padding-left: 20px;
+                    border: 1px solid #e5e5e5;
+                    border-color: #ccc;
+                    outline: none;
                 }
 
                 input[type=text]:focus, textarea:focus {
-                    outline: none;
-                    box-shadow: 0 0 10px #9ecaed;
+                    border-color: #5bc0de;
+                    outline: 0;
+                    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(91,192,222,.6);
                 }
                 
                 input[type=submit] {
                     padding: 15px 15px;
                     margin: 0px 0px;
-                    border-style: none; 
+                    border-style: none;
+                    
                 }
 
                 #search_submit1:hover {
@@ -117,6 +124,7 @@
                     color: white;
                     background-color: #999aa2;
                     border-style: none;
+                    cursor: pointer; 
                 }
             } 
         }
@@ -129,16 +137,22 @@
                 display: flex;
                 margin: auto auto 20px; 
                 width: 100%;
+                position: relative;
     
                 input[type=text] {
                     display: inline-block;
-                    height: 60px;
+                    height: 50px;
                     width: 100%;
                     font-size: 1.2rem;
+                    color: #555;
                     padding-left: 20px;
                     outline: 1px solid hsla(0,0%,100%,.2);
-                    border-style: none;
-                    
+                    border: 2px solid rgba(0,0,0,.1);
+                }
+
+                input[type=text]:focus {
+
+                    box-shadow: 0 0 3px #fff;
                 }
                 
                 input[type=submit] {
@@ -149,14 +163,18 @@
 
                 #search_field2 {
                 background-color: rgba(0,0,0,.1);
+                
                 }
     
                 #search_submit2 {
-                    width: 60px;
-                    height: 60px;
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    width: 50px;
+                    height: 50px;
                     border-radius: 0px 3px 3px 0px;
-                    color: white;
-                    background-color: #999aa2;
+                    color: #22242e;
+                    background-color: rgba(0,0,0,0);
                     border-style: none;
                 }
             } 
@@ -198,7 +216,7 @@
             }
 
             #search_submit1 {
-                border-radius: 3px;
+                border-radius: 0px 3px 3px 0px;
             }
         }
         }
@@ -235,17 +253,19 @@
                 text-decoration: none;
                 color: white;
                 margin: auto;
+                padding: 0px;
                 .btn_support {
                     display: inline;
                     width: 150px;
                     height: 50px;
                     margin: auto 5px;
-                    padding: 20px 15px;
+                    padding: 21px 20px;
                     border-radius: 3px;
-                    font-size: small;
+                    font-size: 0.7rem;
                     text-align: center;
                     white-space: nowrap;
                     background-color: #4183d7;
+                    
 
                     .fa-mouse {
                         display: inline;
@@ -268,12 +288,10 @@
                 margin: auto;
                 .btn_contact {
                     display: inline;
-                    width: 150px;
-                    height: 60px;
                     margin: auto 5px;
-                    padding: 20px 15px;
+                    padding: 21px 15px;
                     border-radius: 3px;
-                    font-size: small;
+                    font-size: 0.7rem;
                     text-align: center;
                     white-space: nowrap;
                     background-color: #999aa2;
@@ -292,10 +310,6 @@
                 }
             }
 
-            .fa-bars {
-                transform: translateY(12px);
-            }
-        }
 
             .form_top {
                 display: flex;
@@ -307,7 +321,7 @@
                     border-radius: 3px;
                 }
             }
-
+        }
             #phone {
                 display: none;
             }
@@ -381,6 +395,8 @@
                     a {
                         color: white;
                         text-decoration: none;
+                        line-height: 1.2;
+                        font-size: 1.2rem;
                     }
 
                     ul {
@@ -404,7 +420,7 @@
 
                 .software {
                     height: 100px;
-                    padding-top: 15px;
+                    padding-top: 20px;
                     margin-top: 0px;
                     margin-bottom: 0px;
 
@@ -412,7 +428,7 @@
 
                 .it {
                     height: 100px;
-                    padding-top: 15px;
+                    padding-top: 20px;
                     margin-top: 0px;
                     margin-bottom: 0px;
 
@@ -420,7 +436,7 @@
 
                 .marketing {
                     height: 100px;
-                    padding-top: 15px;
+                    padding-top: 20px;
                     margin-top: 0px;
                     margin-bottom: 0px;
 
@@ -428,7 +444,7 @@
 
                 .telecoms {
                     height: 100px;
-                    padding-top: 15px;
+                    padding-top: 20px;
                     margin-top: 0px;
                     margin-bottom: 0px;
 
@@ -436,7 +452,7 @@
 
                 .web {
                     height: 100px;
-                    padding-top: 15px;
+                    padding-top: 20px;
                     margin-top: 0px;
                     margin-bottom: 0px;
 
@@ -444,7 +460,7 @@
 
                 .cyber {
                     height: 100px;
-                    padding-top: 15px;
+                    padding-top: 20px;
                     margin-top: 0px;
                     margin-bottom: 0px;
 
@@ -452,7 +468,7 @@
 
                 .dev {
                     height: 100px;
-                    padding-top: 15px;
+                    padding-top: 20px;
                     margin-top: 0px;
                     margin-bottom: 0px;
 
