@@ -690,18 +690,42 @@ body {
   text-align: center;
 }
 
+/* line 28, ../../../netMatters/Reflections/html_css_reflection/scss/banner/_banner.scss */
+.banner_container .banner_txt .banner_btn {
+  display: inline-block;
+  background-color: #67809f;
+  padding: 20px 30px;
+  color: white;
+  justify-content: center;
+  border-radius: 3px;
+}
+
+/* line 36, ../../../netMatters/Reflections/html_css_reflection/scss/banner/_banner.scss */
+.banner_container .banner_txt .banner_btn p {
+  display: inline-block;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin: 0px;
+}
+
+/* line 44, ../../../netMatters/Reflections/html_css_reflection/scss/banner/_banner.scss */
+.banner_container .banner_txt .banner_btn .fa-arrow-right {
+  font-size: 1.4rem;
+  margin: 0px;
+}
+
 @media screen and (min-width: 1070px) {
-  /* line 31, ../../../netMatters/Reflections/html_css_reflection/scss/banner/_banner.scss */
+  /* line 53, ../../../netMatters/Reflections/html_css_reflection/scss/banner/_banner.scss */
   .banner_container .banner_txt {
     max-width: none;
     width: 1050px;
   }
-  /* line 34, ../../../netMatters/Reflections/html_css_reflection/scss/banner/_banner.scss */
+  /* line 56, ../../../netMatters/Reflections/html_css_reflection/scss/banner/_banner.scss */
   .banner_container .banner_txt h1 {
     font-size: 3rem;
     text-align: left;
   }
-  /* line 38, ../../../netMatters/Reflections/html_css_reflection/scss/banner/_banner.scss */
+  /* line 60, ../../../netMatters/Reflections/html_css_reflection/scss/banner/_banner.scss */
   .banner_container .banner_txt p {
     font-size: 1.5rem;
     font-weight: 600;
@@ -710,12 +734,12 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
-  /* line 50, ../../../netMatters/Reflections/html_css_reflection/scss/banner/_banner.scss */
+  /* line 72, ../../../netMatters/Reflections/html_css_reflection/scss/banner/_banner.scss */
   .banner_container .banner_txt h1 {
     font-size: 4rem;
     text-align: left;
   }
-  /* line 54, ../../../netMatters/Reflections/html_css_reflection/scss/banner/_banner.scss */
+  /* line 76, ../../../netMatters/Reflections/html_css_reflection/scss/banner/_banner.scss */
   .banner_container .banner_txt p {
     font-size: 1.625rem;
     text-align: left;
@@ -723,7 +747,7 @@ body {
 }
 
 @media screen and (min-width: 1640px) {
-  /* line 64, ../../../netMatters/Reflections/html_css_reflection/scss/banner/_banner.scss */
+  /* line 86, ../../../netMatters/Reflections/html_css_reflection/scss/banner/_banner.scss */
   .banner_container .banner_txt {
     width: 1200px;
   }
