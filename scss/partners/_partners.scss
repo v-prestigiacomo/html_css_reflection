@@ -35,14 +35,79 @@
         margin-bottom: 20px;
         .partner_images {
             width: 1000px;
+            position: relative;
             .busseys {
                 margin: auto;
                 width: 210px;
             }
 
+            .tooltip-busseys {
+                display: none;
+                position: absolute;
+                .tooltip-text {
+                    position: absolute;
+                    top: -200px;
+                    background-color: #333645;
+                    color: white;
+                    text-align: center;
+                    width: 250px;
+                    padding: 15px;
+    
+                    hr {
+                        border-top: 3px solid white;
+                        width: 35px;
+                    }
+                }
+    
+                .triangle {
+                    position: absolute;
+                    top: -21px;
+                    left: 90px;
+                    width: 0px;
+                    height: 0px;
+                    border-left: 40px solid transparent;
+                    border-right: 40px solid transparent;
+                    border-top: 40px solid #333645;
+                    z-index: 2;
+                }
+            }
+            
+
             .crane {
                 margin: auto;
                 width: 200px;
+            }
+
+            .tooltip-crane {
+                display: none;
+                position: absolute;
+                .tooltip-text {
+                    position: absolute;
+                    top: -250px;
+                    left: 202px;
+                    background-color: #333645;
+                    color: white;
+                    text-align: center;
+                    width: 350px;
+                    padding: 15px;
+    
+                    hr {
+                        border-top: 3px solid white;
+                        width: 35px;
+                    }
+                }
+    
+                .triangle {
+                    position: absolute;
+                    top: -26px;
+                    left: 335px;
+                    width: 0px;
+                    height: 0px;
+                    border-left: 40px solid transparent;
+                    border-right: 40px solid transparent;
+                    border-top: 40px solid #333645;
+                    z-index: 2;
+                }
             }
 
             .beat {
@@ -50,9 +115,73 @@
                 width: 60px;
             }
 
+            .tooltip-beat {
+                display: none;
+                position: absolute;
+                .tooltip-text {
+                    position: absolute;
+                    top: -220px;
+                    left: 500px;
+                    background-color: #333645;
+                    color: white;
+                    text-align: center;
+                    width: 250px;
+                    padding: 15px;
+    
+                    hr {
+                        border-top: 3px solid white;
+                        width: 35px;
+                    }
+                }
+    
+                .triangle {
+                    position: absolute;
+                    top: -41px;
+                    left: 588px;
+                    width: 0px;
+                    height: 0px;
+                    border-left: 40px solid transparent;
+                    border-right: 40px solid transparent;
+                    border-top: 40px solid #333645;
+                    z-index: 2;
+                }
+            }
+
             .north {
                 margin: auto;
                 width: 200px;
+            }
+
+            .tooltip-north {
+                display: none;
+                position: absolute;
+                .tooltip-text {
+                    position: absolute;
+                    top: -222px;
+                    left: 702px;
+                    background-color: #333645;
+                    color: white;
+                    text-align: center;
+                    width: 350px;
+                    padding: 15px;
+    
+                    hr {
+                        border-top: 3px solid white;
+                        width: 35px;
+                    }
+                }
+    
+                .triangle {
+                    position: absolute;
+                    top: -21px;
+                    left: 835px;
+                    width: 0px;
+                    height: 0px;
+                    border-left: 40px solid transparent;
+                    border-right: 40px solid transparent;
+                    border-top: 40px solid #333645;
+                    z-index: 2;
+                }
             }
         }
     }
@@ -84,3 +213,28 @@
         }
     }
 }
+
+// Hover States
+
+.partner_container {
+
+    .partner_images {
+        .busseys:hover + .tooltip-busseys {
+            display: block;
+        }
+
+        .crane:hover + .tooltip-crane {
+            display: block;
+        }
+
+        .beat:hover + .tooltip-beat {
+            display: block;
+        }
+
+        .north:hover + .tooltip-north {
+            display: block;
+        }
+    }
+        
+}
+        
